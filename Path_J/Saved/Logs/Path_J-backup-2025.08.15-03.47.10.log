@@ -1,0 +1,1628 @@
+﻿Log file open, 08/14/25 17:17:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=17840)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: Path_J
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.4946] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 9 7900 12-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\Administrador\Documents\GitHub\Path-J\Path_J\Path_J.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="7343a5c5492ef7b617309dab9a3c268f"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.295502
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-5D45850E4F14411E5ED8999BA10A3BC9
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Binaries/Win64/*.target
+LogAssetRegistry: Display: PlatformFileJournal journal has wrapped for volume 'C:'. AssetRegistry discovery of files on this volume will be uncached. Notes on wrapping:
+The JournalId StartingJournalEntry on volume 'C:' came from a different journal. This can happen when the Journal has been destroyed and recreated. StoredJournalId = 133016947124628664, CurrentJournalId = 133797446369488687.
+LogAssetRegistry: Warning: PlatformFileJournal is not available on volume 'E:'. AssetRegistry discovery of files on this volume will be uncached. Unavailability reason:
+	CreateFile failed to open for reading FileJournal on volume 'E:'. GetLastError == 2 (0x00000002) (O sistema não pode encontrar o arquivo especificado.)
+LogAssetRegistry: Display: Asset registry cache read as 66.6 MiB from ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/CachedAssetRegistry_0.bin.
+LogConfig: Display: Loading Mac ini files took 0.05 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-44394996
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=7343a5c5492ef7b617309dab9a3c268f
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.1-44394996+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (24H2) [10.0.26100.4946] (), CPU: AMD Ryzen 9 7900 12-Core Processor             , GPU: AMD Radeon (TM) RX 570
+LogInit: Compiled (64-bit): Jul 28 2025 20:53:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.08.14-20.17.24:307][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.08.14-20.17.24:307][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.08.14-20.17.24:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.08.14-20.17.24:307][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.08.14-20.17.24:307][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.08.14-20.17.24:307][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.08.14-20.17.24:308][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.08.14-20.17.24:308][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.08.14-20.17.24:309][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1920"
+[2025.08.14-20.17.24:309][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1080"
+[2025.08.14-20.17.24:309][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2025.08.14-20.17.24:309][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.08.14-20.17.24:310][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.08.14-20.17.24:312][  0]LogRHI: Using Default RHI: D3D12
+[2025.08.14-20.17.24:312][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.08.14-20.17.24:312][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.08.14-20.17.24:314][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.08.14-20.17.24:314][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.08.14-20.17.24:445][  0]LogD3D12RHI: Found D3D12 adapter 0: AMD Radeon (TM) RX 570 (VendorId: 1002, DeviceId: 67df, SubSysId: 17021028, Revision: 00cf
+[2025.08.14-20.17.24:445][  0]LogD3D12RHI:   Max supported Feature Level 12_0, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.08.14-20.17.24:445][  0]LogD3D12RHI:   Adapter has 4074MB of dedicated video memory, 0MB of dedicated system memory, and 15850MB of shared system memory, 1 output[s], UMA:false
+[2025.08.14-20.17.24:445][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 24.9.1 (internal:31.0.21921.1000, unified:31.0.21921.1000)
+[2025.08.14-20.17.24:445][  0]LogD3D12RHI:      Driver Date: 8-19-2024
+[2025.08.14-20.17.24:532][  0]LogD3D12RHI: Found D3D12 adapter 1: AMD Radeon(TM) Graphics (VendorId: 1002, DeviceId: 164e, SubSysId: d0001458, Revision: 00c4
+[2025.08.14-20.17.24:532][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.08.14-20.17.24:532][  0]LogD3D12RHI:   Adapter has 459MB of dedicated video memory, 0MB of dedicated system memory, and 15850MB of shared system memory, 0 output[s], UMA:true
+[2025.08.14-20.17.24:532][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 24.12.1 (internal:32.0.12033.1030, unified:32.0.12033.1030)
+[2025.08.14-20.17.24:532][  0]LogD3D12RHI:      Driver Date: 11-27-2024
+[2025.08.14-20.17.24:540][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.08.14-20.17.24:540][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.08.14-20.17.24:540][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 15850MB of shared system memory, 0 output[s], UMA:true
+[2025.08.14-20.17.24:540][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.08.14-20.17.24:540][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.08.14-20.17.24:540][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.08.14-20.17.24:540][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.08.14-20.17.24:540][  0]LogHAL: Display: Platform has ~ 31 GB [33241247744 / 34359738368 / 31], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.08.14-20.17.24:541][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.08.14-20.17.24:541][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.14-20.17.24:541][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.08.14-20.17.24:541][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.08.14-20.17.24:541][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.08.14-20.17.24:541][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.08.14-20.17.24:541][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.08.14-20.17.24:541][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.08.14-20.17.24:541][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.08.14-20.17.24:541][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.08.14-20.17.24:541][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.08.14-20.17.24:541][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.08.14-20.17.24:541][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Saved/Config/WindowsEditor/Editor.ini]
+[2025.08.14-20.17.24:541][  0]LogInit: Computer: AUGUSTO
+[2025.08.14-20.17.24:541][  0]LogInit: User: Administrador
+[2025.08.14-20.17.24:541][  0]LogInit: CPU Page size=4096, Cores=12
+[2025.08.14-20.17.24:541][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.08.14-20.17.24:541][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.08.14-20.17.24:541][  0]LogMemory: Memory total: Physical=31.0GB (31GB approx) Virtual=32.9GB
+[2025.08.14-20.17.24:541][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.08.14-20.17.24:541][  0]LogMemory: Process Physical Memory: 650.98 MB used, 708.32 MB peak
+[2025.08.14-20.17.24:541][  0]LogMemory: Process Virtual Memory: 670.26 MB used, 693.25 MB peak
+[2025.08.14-20.17.24:541][  0]LogMemory: Physical Memory: 11975.05 MB used,  19726.28 MB free, 31701.32 MB total
+[2025.08.14-20.17.24:541][  0]LogMemory: Virtual Memory: 15976.45 MB used,  17708.87 MB free, 33685.32 MB total
+[2025.08.14-20.17.24:541][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.08.14-20.17.24:543][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.08.14-20.17.24:544][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.08.14-20.17.24:544][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.08.14-20.17.24:545][  0]LogInit: Overriding language with editor language configuration option (en).
+[2025.08.14-20.17.24:545][  0]LogInit: Using OS detected locale (pt-BR).
+[2025.08.14-20.17.24:548][  0]LogInit: Setting process to per monitor DPI aware
+[2025.08.14-20.17.24:770][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.08.14-20.17.24:770][  0]LogWindowsTextInputMethodSystem:   - Português (Brasil) - (Keyboard).
+[2025.08.14-20.17.24:770][  0]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2025.08.14-20.17.24:773][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2025.08.14-20.17.24:775][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.08.14-20.17.24:778][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.08.14-20.17.24:778][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.08.14-20.17.24:860][  0]LogRHI: Using Default RHI: D3D12
+[2025.08.14-20.17.24:860][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.08.14-20.17.24:860][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.08.14-20.17.24:860][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.08.14-20.17.24:860][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.08.14-20.17.24:860][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2025.08.14-20.17.24:860][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.08.14-20.17.24:861][  0]LogWindows: Attached monitors:
+[2025.08.14-20.17.24:861][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2025.08.14-20.17.24:861][  0]LogWindows: Found 1 attached monitors.
+[2025.08.14-20.17.24:861][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.08.14-20.17.24:861][  0]LogRHI: RHI Adapter Info:
+[2025.08.14-20.17.24:861][  0]LogRHI:             Name: AMD Radeon (TM) RX 570
+[2025.08.14-20.17.24:861][  0]LogRHI:   Driver Version: AMD Software: Adrenalin Edition 24.9.1 (internal:31.0.21921.1000, unified:31.0.21921.1000)
+[2025.08.14-20.17.24:861][  0]LogRHI:      Driver Date: 8-19-2024
+[2025.08.14-20.17.24:861][  0]LogD3D12RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2025.08.14-20.17.24:896][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.08.14-20.17.24:896][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: Bindless resources are supported
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: Stencil ref from pixel shader is supported
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: Raster order views are not supported
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=64 max=64).
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.08.14-20.17.24:969][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001AABE4082C0)
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001AABE408580)
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001AABE408840)
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.08.14-20.17.24:992][  0]LogRHI: Texture pool is 2182 MB (70% of 3117 MB)
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: Async texture creation enabled
+[2025.08.14-20.17.24:992][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.08.14-20.17.25:012][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2025.08.14-20.17.25:016][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2025.08.14-20.17.25:016][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2025.08.14-20.17.25:016][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2025.08.14-20.17.25:016][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2025.08.14-20.17.25:016][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.08.14-20.17.25:018][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject"  -platform=all'
+[2025.08.14-20.17.25:018][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject"  -platform=all" ]
+[2025.08.14-20.17.25:029][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.08.14-20.17.25:029][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.08.14-20.17.25:029][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.08.14-20.17.25:029][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.08.14-20.17.25:029][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.08.14-20.17.25:029][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.08.14-20.17.25:029][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.08.14-20.17.25:029][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2025.08.14-20.17.25:029][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.08.14-20.17.25:029][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.08.14-20.17.25:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.08.14-20.17.25:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.08.14-20.17.25:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.08.14-20.17.25:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.08.14-20.17.25:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.08.14-20.17.25:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.08.14-20.17.25:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.08.14-20.17.25:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.08.14-20.17.25:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.08.14-20.17.25:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.08.14-20.17.25:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.08.14-20.17.25:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.08.14-20.17.25:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.08.14-20.17.25:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.08.14-20.17.25:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.08.14-20.17.25:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.08.14-20.17.25:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.08.14-20.17.25:093][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.08.14-20.17.25:117][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   VVM_1_0
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2025.08.14-20.17.25:122][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2025.08.14-20.17.25:123][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2025.08.14-20.17.25:124][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.08.14-20.17.25:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.08.14-20.17.25:125][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.08.14-20.17.25:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.08.14-20.17.25:125][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2025.08.14-20.17.25:279][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+[2025.08.14-20.17.25:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.08.14-20.17.25:279][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2025.08.14-20.17.25:280][  0]LogZenServiceInstance: Found Zen config default=C:/Users/Administrador/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.08.14-20.17.25:280][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.08.14-20.17.25:280][  0]LogZenServiceInstance: Installed version at 'C:/Users/Administrador/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.08.14-20.17.25:280][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2025.08.14-20.17.25:280][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/Administrador/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Administrador/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/Administrador/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "C:\Users\Administrador\AppData\Local\UnrealEngine\Common\Zen\Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 18352  --child-id Zen_18352_Startup'
+[2025.08.14-20.17.25:363][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.08.14-20.17.25:363][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.083 seconds
+[2025.08.14-20.17.25:364][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.08.14-20.17.25:369][  0]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.00 seconds.
+[2025.08.14-20.17.25:369][  0]LogDerivedDataCache: Display: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=1476.87MBs, RandomWriteSpeed=271.74MBs. Assigned SpeedClass 'Local'
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.08.14-20.17.25:370][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2025.08.14-20.17.25:371][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/Shaders/WorkingDirectory/18352/).
+[2025.08.14-20.17.25:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrador/AppData/Local/Temp/UnrealShaderWorkingDir/17BC3EBA4509E09719107390457BE7C8/'.
+[2025.08.14-20.17.25:371][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.08.14-20.17.25:371][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2025.08.14-20.17.25:371][  0]LogShaderCompilers: Display: Using 12 local workers for shader compilation
+[2025.08.14-20.17.25:373][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.08.14-20.17.25:374][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.08.14-20.17.25:729][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2025.08.14-20.17.28:507][  0]LogSlate: Using FreeType 2.10.0
+[2025.08.14-20.17.28:508][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.08.14-20.17.28:510][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.08.14-20.17.28:510][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.08.14-20.17.28:510][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.08.14-20.17.28:510][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.08.14-20.17.28:523][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2025.08.14-20.17.28:524][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.08.14-20.17.28:610][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/CachedAssetRegistry_*.bin.
+[2025.08.14-20.17.28:737][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.08.14-20.17.28:737][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.08.14-20.17.28:770][  0]LogDeviceProfileManager: Active device profile: [000001AB1466CF80][000001AAFB575000 66] WindowsEditor
+[2025.08.14-20.17.28:770][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.08.14-20.17.28:772][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.14-20.17.28:776][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2025.08.14-20.17.28:776][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.08.14-20.17.28:776][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.08.14-20.17.28:783][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Invalid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.08.14-20.17.28:784][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyReport_1.log" -log="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyLog_1.log" -project="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject"  -Device=Win64@AUGUSTO'
+[2025.08.14-20.17.28:784][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyReport_1.log" -log="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/TurnkeyLog_1.log" -project="C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Path_J.uproject"  -Device=Win64@AUGUSTO" -nocompile -nocompileuat ]
+[2025.08.14-20.17.28:807][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:807][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.08.14-20.17.28:807][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:807][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:808][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.08.14-20.17.28:808][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:808][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:809][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.08.14-20.17.28:809][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.08.14-20.17.28:809][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.08.14-20.17.28:810][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:811][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:811][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:813][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.08.14-20.17.28:813][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.08.14-20.17.28:814][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.08.14-20.17.28:814][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.28:836][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6d23a2474f2e7970f959e5793f3ebfe5d4366e13), compiling. 
+[2025.08.14-20.17.29:429][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.08.14-20.17.30:219][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.08.14-20.17.30:219][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.30:227][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 58a4987c83123e199f8ca5eb4fdafbf7d538331c), compiling. 
+[2025.08.14-20.17.30:642][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.08.14-20.17.30:642][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.30:648][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 53668487cb4d78818efcf3143bac209453157bf3), compiling. 
+[2025.08.14-20.17.31:582][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.08.14-20.17.31:582][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.14-20.17.31:646][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6c71a3ceb32d33349c1d9c01a5c1027de12ade49), compiling. Is special engine material.
+[2025.08.14-20.17.39:291][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.08.14-20.17.39:291][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.08.14-20.17.39:291][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.08.14-20.17.39:291][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.08.14-20.17.39:291][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.08.14-20.17.39:528][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.08.14-20.17.39:549][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.08.14-20.17.39:549][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.08.14-20.17.39:549][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.08.14-20.17.39:549][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.08.14-20.17.39:552][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.08.14-20.17.39:552][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.08.14-20.17.39:553][  0]LogLiveCoding: Display: First instance in process group "UE_Path_J_0xb5e7c605", spawning console
+[2025.08.14-20.17.39:558][  0]LogLiveCoding: Display: Waiting for server
+[2025.08.14-20.17.39:563][  0]LogSlate: Border
+[2025.08.14-20.17.39:563][  0]LogSlate: BreadcrumbButton
+[2025.08.14-20.17.39:563][  0]LogSlate: Brushes.Title
+[2025.08.14-20.17.39:563][  0]LogSlate: ColorPicker.ColorThemes
+[2025.08.14-20.17.39:563][  0]LogSlate: Default
+[2025.08.14-20.17.39:563][  0]LogSlate: Icons.Save
+[2025.08.14-20.17.39:563][  0]LogSlate: Icons.Toolbar.Settings
+[2025.08.14-20.17.39:563][  0]LogSlate: ListView
+[2025.08.14-20.17.39:563][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.08.14-20.17.39:563][  0]LogSlate: SoftwareCursor_Grab
+[2025.08.14-20.17.39:563][  0]LogSlate: TableView.DarkRow
+[2025.08.14-20.17.39:563][  0]LogSlate: TableView.Row
+[2025.08.14-20.17.39:563][  0]LogSlate: TreeView
+[2025.08.14-20.17.39:621][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.08.14-20.17.39:623][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.693 ms
+[2025.08.14-20.17.39:642][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.08.14-20.17.39:642][  0]LogInit: XR: MultiViewport is Disabled
+[2025.08.14-20.17.39:642][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.08.14-20.17.39:650][  0]LogTurnkeySupport: Turnkey Device: Win64@Augusto: (Name=Augusto, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.08.14-20.17.39:659][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.08.14-20.17.39:664][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 23B4AF08E6B64D038000000000009D00 | Instance: 598315FE4816995405E9E5AD3F6AD894 (AUGUSTO-18352).
+[2025.08.14-20.17.39:797][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.14-20.17.39:797][  0]LogNNERuntimeORT: Selecting NPU adapter: AMD Radeon(TM) Graphics
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   NPU:       yes
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT: Interface availability:
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   GPU: yes
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   RDG: yes
+[2025.08.14-20.17.39:870][  0]LogNNERuntimeORT:   NPU: yes
+[2025.08.14-20.17.39:941][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.14-20.17.39:941][  0]LogNNERuntimeORT: Selecting NPU adapter: AMD Radeon(TM) Graphics
+[2025.08.14-20.17.40:082][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.08.14-20.17.40:082][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.08.14-20.17.40:093][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.08.14-20.17.40:099][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.08.14-20.17.40:305][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.08.14-20.17.40:307][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.08.14-20.17.40:307][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.08.14-20.17.40:308][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:64720'.
+[2025.08.14-20.17.40:310][  0]LogUdpMessaging: Display: Added local interface '192.168.1.2' to multicast group '230.0.0.1:6666'
+[2025.08.14-20.17.40:312][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.08.14-20.17.40:329][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.08.14-20.17.40:329][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.08.14-20.17.40:333][  0]LogTimingProfiler: Initialize
+[2025.08.14-20.17.40:333][  0]LogTimingProfiler: OnSessionChanged
+[2025.08.14-20.17.40:333][  0]LoadingProfiler: Initialize
+[2025.08.14-20.17.40:333][  0]LoadingProfiler: OnSessionChanged
+[2025.08.14-20.17.40:333][  0]LogNetworkingProfiler: Initialize
+[2025.08.14-20.17.40:333][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.08.14-20.17.40:333][  0]LogMemoryProfiler: Initialize
+[2025.08.14-20.17.40:333][  0]LogMemoryProfiler: OnSessionChanged
+[2025.08.14-20.17.40:366][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.08.14-20.17.40:381][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.08.14-20.17.40:385][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.08.14-20.17.40:385][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.08.14-20.17.40:477][  0]SourceControl: Revision control is disabled
+[2025.08.14-20.17.40:484][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.08.14-20.17.40:484][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.08.14-20.17.40:484][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.08.14-20.17.40:484][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.08.14-20.17.40:487][  0]SourceControl: Revision control is disabled
+[2025.08.14-20.17.40:491][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.08.14-20.17.40:606][  0]LogCollectionManager: Loaded 0 collections in 0.001182 seconds
+[2025.08.14-20.17.40:608][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Saved/Collections/' took 0.00s
+[2025.08.14-20.17.40:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Content/Developers/Administrador/Collections/' took 0.00s
+[2025.08.14-20.17.40:611][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Content/Collections/' took 0.00s
+[2025.08.14-20.17.40:647][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.08.14-20.17.40:647][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.08.14-20.17.40:647][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.08.14-20.17.40:647][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.08.14-20.17.40:656][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.08.14-20.17.40:656][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.08.14-20.17.40:656][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.08.14-20.17.40:656][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.08.14-20.17.40:670][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-08-14T20:17:40.670Z using C
+[2025.08.14-20.17.40:670][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.4768.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=Path_J, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2025.08.14-20.17.40:670][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.08.14-20.17.40:670][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.08.14-20.17.40:674][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.08.14-20.17.40:674][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.08.14-20.17.40:674][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.08.14-20.17.40:674][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000056
+[2025.08.14-20.17.40:706][  0]LogUObjectArray: 42347 objects as part of root set at end of initial load.
+[2025.08.14-20.17.40:706][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.08.14-20.17.40:786][  0]LogAutomationTest: Error: Condition failed
+[2025.08.14-20.17.40:786][  0]LogAutomationTest: Error: Condition failed
+[2025.08.14-20.17.40:807][  0]LogEngine: Initializing Engine...
+[2025.08.14-20.17.40:941][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.08.14-20.17.40:941][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.08.14-20.17.41:043][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.08.14-20.17.41:049][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.08.14-20.17.41:054][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.08.14-20.17.41:062][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.08.14-20.17.41:062][  0]LogInit: Texture streaming: Enabled
+[2025.08.14-20.17.41:065][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2025.08.14-20.17.41:071][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.08.14-20.17.41:073][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.08.14-20.17.41:073][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.08.14-20.17.41:073][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.08.14-20.17.41:073][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.14-20.17.41:073][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.14-20.17.41:073][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.14-20.17.41:073][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.14-20.17.41:074][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.14-20.17.41:074][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.14-20.17.41:077][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.14-20.17.41:119][  0]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2025.08.14-20.17.41:120][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.14-20.17.41:120][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.14-20.17.41:120][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.14-20.17.41:121][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.08.14-20.17.41:121][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.08.14-20.17.41:122][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.08.14-20.17.41:122][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.08.14-20.17.41:122][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.08.14-20.17.41:122][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.08.14-20.17.41:122][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.08.14-20.17.41:125][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.08.14-20.17.41:128][  0]LogInit: Undo buffer set to 256 MB
+[2025.08.14-20.17.41:128][  0]LogInit: Transaction tracking system initialized
+[2025.08.14-20.17.41:135][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Saved/SourceControl/UncontrolledChangelists.json
+[2025.08.14-20.17.41:156][  0]LocalizationService: Localization service is disabled
+[2025.08.14-20.17.41:193][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.08.14-20.17.41:255][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Content/' took 0.01s
+[2025.08.14-20.17.41:276][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2025.08.14-20.17.41:277][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.08.14-20.17.41:277][  0]LogPython: Using Python 3.11.8
+[2025.08.14-20.17.41:318][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.08.14-20.17.41:512][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.08.14-20.17.41:572][  0]LogEditorDataStorage: Initializing
+[2025.08.14-20.17.41:574][  0]LogEditorDataStorage: Initialized
+[2025.08.14-20.17.41:577][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.08.14-20.17.41:626][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.08.14-20.17.41:629][  0]SourceControl: Revision control is disabled
+[2025.08.14-20.17.41:629][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.084
+[2025.08.14-20.17.41:630][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.08.14-20.17.41:632][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.08.14-20.17.41:632][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.14-20.17.41:652][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.14-20.17.41:655][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.08.14-20.17.41:687][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.08.14-20.17.41:687][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.08.14-20.17.41:688][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.08.14-20.17.41:688][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.14-20.17.41:688][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.14-20.17.41:739][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.08.14-20.17.41:832][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.14-20.17.41:837][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.14-20.17.41:840][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.14-20.17.41:843][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.08.14-20.17.41:843][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.08.14-20.17.41:843][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.14-20.17.41:846][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.08.14-20.17.41:914][  0]LogWorldPartition: Display: WorldPartition initialize took 226.052 ms
+[2025.08.14-20.17.42:026][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.08.14-20.17.42:039][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.08.14-20.17.42:040][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.08.14-20.17.42:041][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,907ms to complete.
+[2025.08.14-20.17.42:046][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.502
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: ================================================
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Total job queries 2.293, among them cache hits 533 (23.24%), DDC hits 1.294 (56.43%), Duplicates 174 (7.59%)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Tracking 1.586 distinct input hashes that result in 945 distinct outputs (59.58%)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: RAM used: 8,57 MiB of 1,55 GiB budget. Usage: 0.54%
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Shaders Compiled: 292
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Jobs assigned 292, completed 292 (100%)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Average time worker was idle: 0.16 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 2.28 s, longest 6.41 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Job execution time: average 1.99 s, max 5.49 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 4.27 s, max 7.23
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Shader code size: total 2,744 MiB, numShaders 315, average 8,92 KiB, min 2,246 KiB, max 33,121 KiB
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.05 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.64%
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Jobs were issued in 76 batches (only local compilation was used), average 3.84 jobs/batch
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Average processing rate: 29.06 jobs/sec
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Total thread time: 91,011 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Total thread preprocess time: 32,648 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Percentage time preprocessing: 35.87%
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Effective parallelization: 9.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.754766
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.63 sec, max 1.63 sec, min 1.63 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   23 times, average 0.42 sec, max 0.50 sec, min 0.27 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight (compiled    2 times, average 0.39 sec, max 0.40 sec, min 0.39 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 0.37 sec, max 0.41 sec, min 0.33 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                                  FVelocityPS - 10.56% of total time (compiled   23 times, average 0.42 sec, max 0.50 sec, min 0.27 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.33% of total time (compiled   27 times, average 0.35 sec, max 1.09 sec, min 0.21 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.72% of total time (compiled   24 times, average 0.37 sec, max 1.53 sec, min 0.20 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.46% of total time (compiled   26 times, average 0.26 sec, max 1.31 sec, min 0.10 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.36% of total time (compiled   23 times, average 0.29 sec, max 1.35 sec, min 0.11 sec)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Materials Translated:    141
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.14-20.17.42:048][  0]LogShaderCompilers: Display: ================================================
+[2025.08.14-20.17.42:151][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.08.14-20.17.42:217][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.14-20.17.42:260][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.14-20.17.42:305][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.14-20.17.42:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.14-20.17.42:363][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:364][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:364][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:364][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:364][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:364][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:365][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:365][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:366][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:366][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:366][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:366][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:367][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:367][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:367][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:367][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:367][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:367][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:367][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.14-20.17.42:368][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.08.14-20.17.42:443][  0]LogAssetRegistry: Display: Asset registry cache written as 66.8 MiB to ../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Intermediate/CachedAssetRegistry_*.bin
+[2025.08.14-20.17.42:530][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.14-20.17.42:532][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.14-20.17.42:533][  0]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.08.14-20.17.42:592][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.08.14-20.17.42:971][  0]LogStall: Startup...
+[2025.08.14-20.17.42:973][  0]LogStall: Startup complete.
+[2025.08.14-20.17.42:983][  0]LogLoad: (Engine Initialization) Total time: 19.44 seconds
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: ================================================
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Total job queries 2.401, among them cache hits 533 (22.20%), DDC hits 1.394 (58.06%), Duplicates 180 (7.50%)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Tracking 1.688 distinct input hashes that result in 1.042 distinct outputs (61.73%)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: RAM used: 10,58 MiB of 1,55 GiB budget. Usage: 0.67%
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Shaders Compiled: 294
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Jobs assigned 294, completed 294 (100%)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Average time worker was idle: 0.27 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 2.26 s, longest 6.41 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Job execution time: average 1.98 s, max 5.49 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 4.24 s, max 7.23
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Shader code size: total 2,762 MiB, numShaders 317, average 8,921 KiB, min 2,246 KiB, max 33,121 KiB
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.60 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.60%
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 3.77 jobs/batch
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Average processing rate: 27.74 jobs/sec
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Total thread time: 91,735 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Total thread preprocess time: 34,602 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Percentage time preprocessing: 37.72%
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Effective parallelization: 8.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.721392
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.63 sec, max 1.63 sec, min 1.63 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   23 times, average 0.42 sec, max 0.50 sec, min 0.27 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight (compiled    2 times, average 0.39 sec, max 0.40 sec, min 0.39 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 0.37 sec, max 0.41 sec, min 0.33 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.74% of total time (compiled   28 times, average 0.35 sec, max 1.09 sec, min 0.21 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                                  FVelocityPS - 10.48% of total time (compiled   23 times, average 0.42 sec, max 0.50 sec, min 0.27 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.64% of total time (compiled   24 times, average 0.37 sec, max 1.53 sec, min 0.20 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.40% of total time (compiled   26 times, average 0.26 sec, max 1.31 sec, min 0.10 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.30% of total time (compiled   23 times, average 0.29 sec, max 1.35 sec, min 0.11 sec)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Materials Translated:    142
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.14-20.17.43:146][  0]LogShaderCompilers: Display: ================================================
+[2025.08.14-20.17.43:200][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.08.14-20.17.43:200][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.08.14-20.17.43:400][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.14-20.17.43:402][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.08.14-20.17.43:558][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.08.14-20.17.43:568][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 165.964 ms
+[2025.08.14-20.17.43:823][  1]LogAssetRegistry: AssetRegistryGather time 0.4420s: AssetDataDiscovery 0.0258s, AssetDataGather 0.3798s, StoreResults 0.0364s. Wall time 15.3020s.
+	NumCachedDirectories 0. NumUncachedDirectories 1626. NumCachedFiles 0. NumUncachedFiles 7527.
+	BackgroundTickInterruptions 0.
+[2025.08.14-20.17.43:842][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.08.14-20.17.43:849][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.08.14-20.17.43:849][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.08.14-20.17.43:946][  1]LogStreaming: Display: FlushAsyncLoading(410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473): 64 QueuedPackages, 0 AsyncPackages
+[2025.08.14-20.17.43:966][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.116734 seconds (Found 7503 uncontrolled assets)
+[2025.08.14-20.17.44:468][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 3.431613
+[2025.08.14-20.17.44:470][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.08.14-20.17.44:471][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3.793802
+[2025.08.14-20.17.44:719][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.08.14-20.17.44:908][ 15]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 4.207026
+[2025.08.14-20.17.44:910][ 15]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1327463752
+[2025.08.14-20.17.44:910][ 15]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4.207026, Update Interval: 305.103302
+[2025.08.14-20.17.44:994][ 19]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_5
+[2025.08.14-20.17.48:621][152]LogMeshUtilities: Finished distance field build in 4.6s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.48:833][160]LogMeshUtilities: Finished distance field build in 4.9s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.48:953][165]LogMeshUtilities: Finished distance field build in 5.0s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:174][174]LogMeshUtilities: Finished distance field build in 5.2s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:286][178]LogMeshUtilities: Finished distance field build in 5.3s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:299][179]LogMeshUtilities: Finished distance field build in 5.3s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:645][183]LogMeshUtilities: Finished distance field build in 5.7s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:686][183]LogMeshUtilities: Finished distance field build in 5.7s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 67% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:708][183]LogMeshUtilities: Finished distance field build in 5.7s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.49:730][183]LogMeshUtilities: Finished distance field build in 5.7s - 126x126x126 sparse distance field, 2.4Mb total, 0.1Mb always loaded, 69% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.50:838][198]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 63% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.51:308][217]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.51:557][227]LogMeshUtilities: Finished distance field build in 1.3s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 49% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.53:856][319]LogMeshUtilities: Finished distance field build in 2.5s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.53:906][321]LogMeshUtilities: Finished distance field build in 2.6s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.54:197][332]LogMeshUtilities: Finished distance field build in 2.9s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.54:450][342]LogMeshUtilities: Finished distance field build in 3.1s - 126x126x126 sparse distance field, 2.1Mb total, 0.1Mb always loaded, 58% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.54:513][345]LogMeshUtilities: Finished distance field build in 3.2s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 61% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.55:377][378]LogMeshUtilities: Finished distance field build in 4.0s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.55:895][399]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x35 sparse distance field, 0.9Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.56:117][408]LogMeshUtilities: Finished distance field build in 1.5s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.56:335][417]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.57:276][458]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 48% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.58:548][512]LogMeshUtilities: Finished distance field build in 1.4s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.58:600][514]LogMeshUtilities: Finished distance field build in 1.4s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 47% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.17.59:483][552]LogMeshUtilities: Finished distance field build in 2.3s - 126x126x126 sparse distance field, 2.5Mb total, 0.1Mb always loaded, 73% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.00:373][591]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.00:547][598]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.00:569][599]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 58% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.02:138][666]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 48% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.02:812][695]LogMeshUtilities: Finished distance field build in 1.8s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.03:302][716]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 43% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.03:763][736]LogMeshUtilities: Finished distance field build in 1.5s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 57% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.04:410][764]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.04:987][789]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x126 sparse distance field, 3.1Mb total, 0.1Mb always loaded, 94% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.06:295][846]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 48% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.06:407][851]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.08:907][960]LogMeshUtilities: Finished distance field build in 1.8s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.09:479][985]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.10:472][ 28]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.11:599][ 77]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.12:540][118]LogMeshUtilities: Finished distance field build in 1.8s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.12:589][120]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.12:918][134]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.13:018][139]LogMeshUtilities: Finished distance field build in 2.3s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.14:422][200]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.14:587][207]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.15:684][257]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.15:833][263]LogMeshUtilities: Finished distance field build in 1.4s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 64% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.16:808][305]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 51% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.18.16:832][306]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.14-20.19.25:371][815]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.14-20.19.42:547][351]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.08.14-20.19.42:551][351]LogContentBrowser: Creating deferred item: NewFolder
+[2025.08.14-20.19.42:557][352]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.08.14-20.19.55:259][758]LogContentBrowser: Attempting asset rename: NewFolder -> Characters
+[2025.08.14-20.19.55:259][758]LogContentBrowser: End creating deferred item NewFolder
+[2025.08.14-20.20.43:382][ 36]LogShaderCompilers: Display: ================================================
+[2025.08.14-20.20.43:382][ 36]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.14-20.20.43:382][ 36]LogShaderCompilers: Display: Total job queries 2.411, among them cache hits 533 (22.11%), DDC hits 1.402 (58.15%), Duplicates 180 (7.47%)
+[2025.08.14-20.20.43:382][ 36]LogShaderCompilers: Display: Tracking 1.698 distinct input hashes that result in 1.050 distinct outputs (61.84%)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: RAM used: 10,63 MiB of 1,55 GiB budget. Usage: 0.67%
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Shaders Compiled: 296
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Jobs assigned 296, completed 296 (100%)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Average time worker was idle: 0.30 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Time job spent in pending queue: average 2.25 s, longest 6.41 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Job execution time: average 1.97 s, max 5.49 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Job life time (pending + execution): average 4.22 s, max 7.23
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Shader code size: total 2,777 MiB, numShaders 319, average 8,915 KiB, min 2,246 KiB, max 33,121 KiB
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.36 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.60%
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 3.70 jobs/batch
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Average processing rate: 26.05 jobs/sec
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Total thread time: 92,668 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Total thread preprocess time: 34,703 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Percentage time preprocessing: 37.45%
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Effective parallelization: 8.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.679719
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.63 sec, max 1.63 sec, min 1.63 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   23 times, average 0.42 sec, max 0.50 sec, min 0.27 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight (compiled    2 times, average 0.39 sec, max 0.40 sec, min 0.39 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 0.37 sec, max 0.41 sec, min 0.33 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.28% of total time (compiled   29 times, average 0.36 sec, max 1.09 sec, min 0.21 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                                  FVelocityPS - 10.37% of total time (compiled   23 times, average 0.42 sec, max 0.50 sec, min 0.27 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.54% of total time (compiled   24 times, average 0.37 sec, max 1.53 sec, min 0.20 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.33% of total time (compiled   26 times, average 0.26 sec, max 1.31 sec, min 0.10 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.23% of total time (compiled   23 times, average 0.29 sec, max 1.35 sec, min 0.11 sec)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: === Material stats ===
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Materials Translated:    142
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.14-20.20.43:383][ 36]LogShaderCompilers: Display: ================================================
+[2025.08.14-20.22.50:405][417]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 309.730286
+[2025.08.14-20.22.51:404][420]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.22.51:404][420]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 310.397003, Update Interval: 314.786224
+[2025.08.14-20.28.08:430][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 627.755615
+[2025.08.14-20.28.09:430][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.28.09:430][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 628.422241, Update Interval: 314.650726
+[2025.08.14-20.33.28:488][488]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 947.814453
+[2025.08.14-20.33.29:488][491]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.33.29:488][491]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 948.481140, Update Interval: 319.494019
+[2025.08.14-20.39.02:518][490]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1281.842285
+[2025.08.14-20.39.12:518][520]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.39.22:518][550]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1282.509033, Update Interval: 340.985748
+[2025.08.14-20.45.07:556][585]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1646.880615
+[2025.08.14-20.45.08:556][588]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.45.08:556][588]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1647.548218, Update Interval: 305.771667
+[2025.08.14-20.50.55:272][628]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1994.596436
+[2025.08.14-20.50.56:273][631]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.50.56:273][631]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1995.263306, Update Interval: 303.244720
+[2025.08.14-20.56.37:648][655]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2336.963867
+[2025.08.14-20.56.38:647][658]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-20.56.38:647][658]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2337.630371, Update Interval: 339.044769
+[2025.08.14-21.03.15:697][849]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2735.011963
+[2025.08.14-21.03.16:697][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.03.16:697][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2735.678711, Update Interval: 308.915680
+[2025.08.14-21.09.18:405][937]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3097.719482
+[2025.08.14-21.09.19:405][940]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.09.19:405][940]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3098.386475, Update Interval: 354.546936
+[2025.08.14-21.16.08:131][166]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3507.444092
+[2025.08.14-21.16.09:132][169]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.16.09:132][169]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3508.110840, Update Interval: 325.915710
+[2025.08.14-21.19.25:371][758]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.14-21.22.11:507][256]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3870.816650
+[2025.08.14-21.22.12:507][259]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.22.12:507][259]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3871.483643, Update Interval: 341.095612
+[2025.08.14-21.28.25:898][379]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4245.225586
+[2025.08.14-21.28.26:899][382]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.28.26:899][382]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4245.893066, Update Interval: 351.677612
+[2025.08.14-21.35.03:286][571]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4642.635742
+[2025.08.14-21.35.04:286][574]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.35.04:286][574]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4643.302246, Update Interval: 317.825867
+[2025.08.14-21.41.11:671][676]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5011.063965
+[2025.08.14-21.41.12:671][679]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.41.12:671][679]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5011.730957, Update Interval: 338.588837
+[2025.08.14-21.47.46:733][861]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5406.168457
+[2025.08.14-21.47.47:733][864]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.47.47:733][864]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5406.835938, Update Interval: 338.196960
+[2025.08.14-21.54.15:799][ 28]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5795.282227
+[2025.08.14-21.54.16:799][ 31]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-21.54.16:799][ 31]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5795.948730, Update Interval: 305.193024
+[2025.08.14-22.00.00:851][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6140.362305
+[2025.08.14-22.00.01:851][ 66]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-22.00.01:851][ 66]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6141.029297, Update Interval: 305.694763
+[2025.08.14-22.05.52:572][118]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6492.111816
+[2025.08.14-22.05.53:573][121]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-22.05.53:573][121]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6492.778809, Update Interval: 312.488159
+[2025.08.14-22.50.34:600][397]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2025.08.14-22.50.34:600][397]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [2588 Seconds] waiting for h/w. InstanceID=1
+[2025.08.14-22.50.37:269][398]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.08.14-22.50.37:269][398]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.08.14-22.50.37:269][398]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=AudioMixerPlatformInterface. Timeout waiting for h/w.
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: request failed, libcurl error: 6 (Could not resolve hostname)
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: libcurl info message cache 0 (Too old connection (2635 seconds idle), disconnect it)
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: libcurl info message cache 2 (shutting down connection #1)
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.08.14-22.50.37:519][398]LogHttp: Warning: 000001AC5E7D3F00: libcurl info message cache 5 (shutting down connection #2)
+[2025.08.14-22.50.37:521][398]LogHttp: Warning: 000001AC5E7D3F00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B71353C30-40EE-9EA9-BA65-2F9506ECD094%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=7343a5c5492ef7b617309dab9a3c268f%7Ce16a001957b642b1b5d60b353a532227%7C985e5532-1b9e-4a5c-b566-14e48125ff99&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 0.01s
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BC8E9FE2C-47D2-3477-C1DF-66B8164DD3A6%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: libcurl info message cache 0 (Too old connection (2635 seconds idle), disconnect it)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: libcurl info message cache 1 (Connection 34 seems to be dead)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: libcurl info message cache 2 (Closing connection)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: 000001AC5E7BA200: libcurl info message cache 5 (Closing connection)
+[2025.08.14-22.50.37:521][398]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BC8E9FE2C-47D2-3477-C1DF-66B8164DD3A6%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.08.14-22.50.37:526][399]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d1fc544f-c456-47e7-b2d7-d3d5968c98c9}, Name=Alto-falantes (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=251.55
+[2025.08.14-22.50.37:526][399]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.08.14-22.50.37:526][399]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.08.14-22.50.37:527][399]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B5400: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B5400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B5400: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B5400: libcurl info message cache 1 (Closing connection)
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B2400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=28A226EC4147D0EB1D0780A7E5E9478E, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B2400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.14-22.50.37:586][399]LogEOSSDK: Warning: LogHttp: 000001AC5E7B2400: libcurl info message cache 0 (Found bundle for host: 0x1ac298807e0 [serially])
+[2025.08.14-22.50.37:586][400]LogEOSSDK: Warning: LogHttp: 000001AC5E7B2400: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.08.14-22.50.37:586][400]LogEOSSDK: Warning: LogHttp: 000001AC5E7B2400: libcurl info message cache 2 (Closing connection)
+[2025.08.14-22.50.37:586][400]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.08.14-22.50.37:586][400]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=28A226EC4147D0EB1D0780A7E5E9478E
+[2025.08.14-22.50.38:856][403]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.08.14-22.50.38:856][403]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=28A226EC4147D0EB1D0780A7E5E9478E
+[2025.08.14-22.50.40:523][408]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.08.14-22.50.40:523][408]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=28A226EC4147D0EB1D0780A7E5E9478E
+[2025.08.14-22.51.21:525][531]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9221.267578
+[2025.08.14-22.51.22:525][534]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-22.51.22:525][534]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9221.933594, Update Interval: 315.599243
+[2025.08.14-22.57.26:906][627]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9586.473633
+[2025.08.14-22.57.27:907][630]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-22.57.27:907][630]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9587.139648, Update Interval: 314.722137
+[2025.08.14-23.02.28:341][532]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.14-23.03.20:955][689]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9940.347656
+[2025.08.14-23.03.21:956][692]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.03.21:956][692]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9941.013672, Update Interval: 347.154755
+[2025.08.14-23.09.59:013][883]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10338.253906
+[2025.08.14-23.10.00:014][886]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.10.00:014][886]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10338.919922, Update Interval: 344.065674
+[2025.08.14-23.16.33:722][ 67]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10732.776367
+[2025.08.14-23.16.34:721][ 70]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.16.34:721][ 70]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10733.443359, Update Interval: 320.561554
+[2025.08.14-23.22.48:434][191]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11107.306641
+[2025.08.14-23.22.49:435][194]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.22.49:435][195]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11107.973633, Update Interval: 318.512512
+[2025.08.14-23.28.56:146][294]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11474.839844
+[2025.08.14-23.28.57:146][297]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.28.57:146][297]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11475.505859, Update Interval: 303.156830
+[2025.08.14-23.34.57:197][377]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11835.712891
+[2025.08.14-23.34.58:197][380]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.34.58:197][380]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11836.378906, Update Interval: 352.411865
+[2025.08.14-23.41.31:924][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12230.243164
+[2025.08.14-23.41.32:925][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.41.32:925][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12230.909180, Update Interval: 319.129608
+[2025.08.14-23.47.47:978][689]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12606.111328
+[2025.08.14-23.47.48:978][692]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.47.48:978][692]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12606.777344, Update Interval: 318.977631
+[2025.08.14-23.53.56:701][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12974.668945
+[2025.08.14-23.53.57:702][798]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.14-23.53.57:702][799]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12975.335938, Update Interval: 327.173676
+[2025.08.15-00.00.21:004][980]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13358.797852
+[2025.08.15-00.00.22:005][983]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.00.22:005][983]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13359.463867, Update Interval: 324.183472
+[2025.08.15-00.02.28:341][362]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.15-00.06.21:713][ 62]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13719.299805
+[2025.08.15-00.06.22:713][ 65]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.06.22:713][ 65]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13719.965820, Update Interval: 300.448608
+[2025.08.15-00.12.06:093][ 95]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14063.484375
+[2025.08.15-00.12.07:094][ 98]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.12.07:094][ 98]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14064.150391, Update Interval: 301.375153
+[2025.08.15-00.17.57:818][150]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14414.959961
+[2025.08.15-00.17.58:819][153]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.17.58:819][153]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14415.626953, Update Interval: 313.220612
+[2025.08.15-00.23.49:868][206]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14766.830078
+[2025.08.15-00.23.50:868][209]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.23.50:868][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14767.497070, Update Interval: 326.027405
+[2025.08.15-00.30.08:242][341]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15144.994141
+[2025.08.15-00.30.09:242][344]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.30.09:242][344]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15145.660156, Update Interval: 328.550690
+[2025.08.15-00.36.12:280][433]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15508.829102
+[2025.08.15-00.36.13:281][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.36.13:281][436]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15509.496094, Update Interval: 339.971313
+[2025.08.15-00.42.34:340][579]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15890.653320
+[2025.08.15-00.42.35:340][582]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.42.35:340][582]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15891.319336, Update Interval: 311.418793
+[2025.08.15-00.48.28:735][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16244.850586
+[2025.08.15-00.48.29:734][645]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.48.29:734][645]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16245.516602, Update Interval: 344.501465
+[2025.08.15-00.55.11:793][851]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16648.287109
+[2025.08.15-00.55.12:793][854]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-00.55.12:793][854]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16648.955078, Update Interval: 301.653503
+[2025.08.15-01.01.07:839][919]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17004.904297
+[2025.08.15-01.01.08:840][922]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.01.08:840][923]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17005.572266, Update Interval: 351.717896
+[2025.08.15-01.02.28:341][161]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.15-01.07.57:564][148]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17415.257812
+[2025.08.15-01.07.58:564][151]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.07.58:564][151]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17415.925781, Update Interval: 351.040375
+[2025.08.15-01.14.37:615][348]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17815.927734
+[2025.08.15-01.14.38:615][351]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.14.38:615][351]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17816.595703, Update Interval: 313.489807
+[2025.08.15-01.20.49:341][463]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18188.232422
+[2025.08.15-01.20.50:342][466]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.20.50:342][466]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18188.900391, Update Interval: 318.966644
+[2025.08.15-01.27.05:735][592]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18565.197266
+[2025.08.15-01.27.06:734][595]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.27.06:734][595]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18565.865234, Update Interval: 337.415070
+[2025.08.15-01.33.26:458][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18946.517578
+[2025.08.15-01.33.27:457][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.33.27:457][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18947.185547, Update Interval: 331.042816
+[2025.08.15-01.39.33:178][834]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19313.830078
+[2025.08.15-01.39.34:178][837]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.39.34:178][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19314.498047, Update Interval: 329.134796
+[2025.08.15-01.45.46:567][954]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19687.785156
+[2025.08.15-01.45.47:567][957]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.45.47:567][957]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19688.453125, Update Interval: 334.970551
+[2025.08.15-01.51.52:944][ 53]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20054.763672
+[2025.08.15-01.51.53:944][ 56]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.51.53:944][ 56]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20055.431641, Update Interval: 330.400085
+[2025.08.15-01.58.07:996][178]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20430.396484
+[2025.08.15-01.58.08:997][181]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-01.58.08:997][181]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20431.064453, Update Interval: 338.136536
+[2025.08.15-02.02.28:341][959]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.15-02.04.41:393][358]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20824.404297
+[2025.08.15-02.04.42:393][361]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.04.42:393][361]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20825.072266, Update Interval: 332.253174
+[2025.08.15-02.10.45:452][450]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21189.041016
+[2025.08.15-02.10.46:451][453]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.10.46:451][453]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21189.707031, Update Interval: 301.228668
+[2025.08.15-02.16.36:166][502]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21540.296875
+[2025.08.15-02.16.37:167][505]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.16.37:167][505]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21540.964844, Update Interval: 352.701202
+[2025.08.15-02.23.25:216][729]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21949.990234
+[2025.08.15-02.23.26:216][732]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.23.26:216][732]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21950.658203, Update Interval: 312.312378
+[2025.08.15-02.29.08:585][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22293.902344
+[2025.08.15-02.29.09:585][762]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.29.09:585][762]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22294.570312, Update Interval: 338.255554
+[2025.08.15-02.35.35:953][921]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22681.908203
+[2025.08.15-02.35.36:954][924]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.35.36:954][924]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22682.576172, Update Interval: 315.677979
+[2025.08.15-02.41.38:653][  9]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23045.222656
+[2025.08.15-02.41.39:653][ 12]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.41.39:653][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23045.890625, Update Interval: 318.717621
+[2025.08.15-02.47.35:005][ 78]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23402.222656
+[2025.08.15-02.47.36:005][ 81]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.47.36:005][ 81]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23402.890625, Update Interval: 319.900513
+[2025.08.15-02.53.46:724][193]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23774.619141
+[2025.08.15-02.53.47:724][196]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-02.53.47:724][196]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23775.287109, Update Interval: 314.575653
+[2025.08.15-03.00.01:073][316]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24149.673828
+[2025.08.15-03.00.02:073][319]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.00.02:073][319]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24150.341797, Update Interval: 359.428680
+[2025.08.15-03.02.28:341][758]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.15-03.06.35:755][500]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24545.091797
+[2025.08.15-03.06.36:756][503]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.06.36:756][503]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24545.759766, Update Interval: 306.397888
+[2025.08.15-03.12.17:201][497]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24887.074219
+[2025.08.15-03.12.18:200][500]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.12.18:200][500]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24887.742188, Update Interval: 354.114807
+[2025.08.15-03.19.06:570][725]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25297.011719
+[2025.08.15-03.19.07:569][728]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.19.07:569][728]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25297.677734, Update Interval: 305.588562
+[2025.08.15-03.25.01:929][791]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25652.832031
+[2025.08.15-03.25.02:929][794]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.25.02:929][794]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25653.500000, Update Interval: 341.053497
+[2025.08.15-03.31.15:946][913]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26027.359375
+[2025.08.15-03.31.16:946][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.31.16:946][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26028.025391, Update Interval: 355.896484
+[2025.08.15-03.38.11:981][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26443.917969
+[2025.08.15-03.38.12:981][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.38.12:981][164]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26444.585938, Update Interval: 323.092133
+[2025.08.15-03.44.13:000][244]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26805.423828
+[2025.08.15-03.44.14:000][247]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.15-03.44.14:000][247]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26806.089844, Update Interval: 325.027618
+[2025.08.15-03.47.07:558][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.08.15-03.47.07:584][865]LogStall: Shutdown...
+[2025.08.15-03.47.07:584][865]LogStall: Shutdown complete.
+[2025.08.15-03.47.07:606][865]LogSlate: Window 'Path_J - Unreal Editor' being destroyed
+[2025.08.15-03.47.07:679][865]Cmd: QUIT_EDITOR
+[2025.08.15-03.47.07:679][866]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.08.15-03.47.07:682][866]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.08.15-03.47.07:683][866]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.08.15-03.47.07:683][866]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.08.15-03.47.07:700][866]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.08.15-03.47.07:700][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.15-03.47.07:700][866]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2025.08.15-03.47.07:705][866]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.08.15-03.47.07:705][866]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.08.15-03.47.07:706][866]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.08.15-03.47.07:708][866]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.08.15-03.47.07:708][866]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.08.15-03.47.07:717][866]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.08.15-03.47.07:718][866]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.08.15-03.47.07:718][866]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.08.15-03.47.07:718][866]LogAudio: Display: Audio Device unregistered from world 'Untitled_1'.
+[2025.08.15-03.47.07:718][866]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.08.15-03.47.07:718][866]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.08.15-03.47.07:720][866]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.08.15-03.47.07:729][866]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.08.15-03.47.07:729][866]LogAudio: Display: Audio Device Manager Shutdown
+[2025.08.15-03.47.07:730][866]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2025.08.15-03.47.07:733][866]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.08.15-03.47.07:733][866]LogExit: Preparing to exit.
+[2025.08.15-03.47.07:762][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.08.15-03.47.08:563][866]LogEditorDataStorage: Deinitializing
+[2025.08.15-03.47.08:630][866]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.08.15-03.47.08:654][866]LogExit: Editor shut down
+[2025.08.15-03.47.08:658][866]LogExit: Transaction tracking system shut down
+[2025.08.15-03.47.08:834][866]LogExit: Object subsystem successfully closed.
+[2025.08.15-03.47.08:880][866]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.08.15-03.47.08:944][866]LogMemoryProfiler: Shutdown
+[2025.08.15-03.47.08:944][866]LogNetworkingProfiler: Shutdown
+[2025.08.15-03.47.08:944][866]LoadingProfiler: Shutdown
+[2025.08.15-03.47.08:944][866]LogTimingProfiler: Shutdown
+[2025.08.15-03.47.08:945][866]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.08.15-03.47.08:945][866]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.08.15-03.47.09:241][866]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.08.15-03.47.09:249][866]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.08.15-03.47.09:249][866]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B71353C30-40EE-9EA9-BA65-2F9506ECD094%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=7343a5c5492ef7b617309dab9a3c268f%7Ce16a001957b642b1b5d60b353a532227%7C985e5532-1b9e-4a5c-b566-14e48125ff99&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.08.15-03.47.09:793][866]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.08.15-03.47.09:797][866]LogNFORDenoise: NFORDenoise function shutting down
+[2025.08.15-03.47.09:797][866]RenderDocPlugin: plugin has been unloaded.
+[2025.08.15-03.47.09:797][866]LogXGEController: Cleaning working directory: C:/Users/Administrador/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.08.15-03.47.09:799][866]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.08.15-03.47.09:799][866]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.08.15-03.47.09:799][866]LogPakFile: Destroying PakPlatformFile
+[2025.08.15-03.47.10:350][866]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.08.15-03.47.10:390][866]LogExit: Exiting.
+[2025.08.15-03.47.10:406][866]Log file closed, 08/15/25 00:47:10
