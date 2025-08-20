@@ -1,0 +1,668 @@
+#line 1 "DumpShaderDefinesAsCommentedCode"
+// #define __SHADER_TARGET_MAJOR 6
+// #define __SHADER_TARGET_MINOR 6
+// #define ALLOW_STATIC_LIGHTING 0
+// #define AMPLIFICATIONSHADER 0
+// #define APPLY_COLOR_DEFICIENCY 1
+// #define CLEAR_COAT_BOTTOM_NORMAL 0
+// #define COLORED_LIGHT_FUNCTION_ATLAS 0
+// #define COMPILE_SHADERS_FOR_DEVELOPMENT 1
+// #define COMPILER_DEFINE #define
+// #define COMPILER_DXC 1
+// #define COMPILER_FXC 0
+// #define COMPILER_HLSL 1
+// #define COMPILER_SUPPORTS_BARYCENTRIC_INTRINSICS 0
+// #define COMPILER_SUPPORTS_HLSL2021 1
+// #define COMPILER_SUPPORTS_NOINLINE 1
+// #define COMPUTESHADER 0
+// #define DO_CHECK 1
+// #define DO_GUARD_SLOW 0
+// #define DXT5_NORMALMAPS 0
+// #define EARLY_Z_PASS_ONLY_MATERIAL_MASKING 0
+// #define ES3_1_PROFILE 0
+// #define FORWARD_SHADING 0
+// #define FORWARD_SHADING_FORCES_SKYLIGHT_CUBEMAPS_BLENDING 0
+// #define GBUFFER_HAS_DIFFUSE_SAMPLE_OCCLUSION 0
+// #define GBUFFER_HAS_VELOCITY 0
+// #define GBUFFER_REFACTOR 1
+// #define GEOMETRYSHADER 0
+// #define HAS_FIRST_PERSON_GBUFFER_BIT 1
+// #define HAS_INVERTED_Z_BUFFER 1
+// #define INSTANCED_STEREO 0
+// #define IRIS_NORMAL 0
+// #define LEGACY_MATERIAL_ENERGYCONSERVATION 0
+// #define Main Main
+// #define MATERIAL_ROUGHDIFFUSE 0
+// #define MESHSHADER 0
+// #define MOBILE_MULTI_VIEW 0
+// #define MULTI_VIEW 0
+// #define PIXELSHADER 1
+// #define PLATFORM_ALLOW_SCENE_DATA_COMPRESSED_TRANSFORMS 1
+// #define PLATFORM_MAX_SAMPLERS 32
+// #define PLATFORM_SUPPORTS_BARYCENTRICS_SEMANTIC 1
+// #define PLATFORM_SUPPORTS_BINDLESS 0
+// #define PLATFORM_SUPPORTS_BUFFER_LOAD_TYPE_CONVERSION 1
+// #define PLATFORM_SUPPORTS_CALLABLE_SHADERS 1
+// #define PLATFORM_SUPPORTS_CLIP_DISTANCE 1
+// #define PLATFORM_SUPPORTS_DIAGNOSTIC_BUFFER 1
+// #define PLATFORM_SUPPORTS_DISTANCE_FIELDS 1
+// #define PLATFORM_SUPPORTS_INLINE_RAY_TRACING 0
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER0 1
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER1 1
+// #define PLATFORM_SUPPORTS_PER_PIXEL_DBUFFER_MASK 0
+// #define PLATFORM_SUPPORTS_REAL_TYPES 0
+// #define PLATFORM_SUPPORTS_RENDERTARGET_WRITE_MASK 0
+// #define PLATFORM_SUPPORTS_ROV 1
+// #define PLATFORM_SUPPORTS_SHADER_BUNDLE_DISPATCH 0
+// #define PLATFORM_SUPPORTS_SHADER_ROOT_CONSTANTS 1
+// #define PLATFORM_SUPPORTS_SM6_0_WAVE_OPERATIONS 1
+// #define PLATFORM_SUPPORTS_STATIC_SAMPLERS 1
+// #define PLATFORM_SUPPORTS_UNIFORM_BUFFER_OBJECTS 0
+// #define PLATFORM_SUPPORTS_VERTEX_SHADER_SRVS 1
+// #define PLATFORM_SUPPORTS_VERTEX_SHADER_UAVS 1
+// #define PRIMITIVE_HAS_TILEOFFSET_DATA 1
+// #define PROJECT_ALLOW_GLOBAL_CLIP_PLANE 0
+// #define PROJECT_EXPFOG_MATCHES_VFOG 0
+// #define PROJECT_LOCALFOGVOLUME_APPLYONTRANSLUCENT 0
+// #define PROJECT_MOBILE_DISABLE_VERTEX_FOG 1
+// #define PROJECT_OIT 0
+// #define PROJECT_SUBSTRATE_BACKCOMPATIBILITY 0
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE 1
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE_AFFECTS_HEIGHFOG 1
+// #define PROJECT_SUPPORTS_LOCALFOGVOLUME 1
+// #define PROJECT_SUPPORTS_LUMEN 1
+// #define PROJECT_VERTEX_FOGGING_FOR_OPAQUE 0
+// #define RAYCALLABLESHADER 0
+// #define RAYGENSHADER 0
+// #define RAYHITGROUPSHADER 0
+// #define RAYMISSSHADER 0
+// #define SCRGB_ENCODING 1
+// #define SELECTIVE_BASEPASS_OUTPUTS 0
+// #define SHADING_PATH_DEFERRED 1
+// #define SM5_PROFILE 0
+// #define SM6_PROFILE 1
+// #define SUBSTRATE_ADVANCED_DEBUG_ENABLED 0
+// #define SUBSTRATE_ENABLED 0
+// #define SUBSTRATE_MATERIAL_CLOSURE_COUNT 0
+// #define SUBSTRATE_OPAQUE_ROUGH_REFRACTION_ENABLED 0
+// #define SUBSTRATE_STOCHASTIC_LIGHTING_ENABLED 0
+// #define SUBSTRATE_TOP_LAYER_TYPE uint
+// #define SUBTRATE_GBUFFER_FORMAT 0
+// #define SUPPORT_CLOUD_SHADOW_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_CLOUD_SHADOW_ON_SINGLE_LAYER_WATER 0
+// #define SUPPORT_IESPROFILE_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_PRIMITIVE_ALPHA_HOLDOUT 0
+// #define SUPPORT_RECTLIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_SHADOWED_LOCAL_LIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_VSM_FOWARD_QUALITY 0
+// #define SUPPORTS_INDEPENDENT_SAMPLERS 1
+// #define UE_LEGACY_LUMINANCE_FACTORS 0
+// #define UE_LWC_RENDER_TILE_SIZE 2097152.00f
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_2PI 0.673652053f
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_PI 0.673652053f
+// #define UE_LWC_RENDER_TILE_SIZE_RCP 4.76837158e-07f
+// #define UE_LWC_RENDER_TILE_SIZE_RSQRT 0.000690533954f
+// #define UE_LWC_RENDER_TILE_SIZE_SQRT 1448.15466f
+// #define USE_DBUFFER 1
+// #define USE_HAIR_TRIANGLE_STRIP 1
+// #define USES_BASE_PASS_VELOCITY 0
+// #define USING_VERTEX_SHADER_LAYER 0
+// #define VELOCITY_ENCODE_DEPTH 1
+// #define VERTEXSHADER 0
+// #define VIEW_HAS_TILEOFFSET_DATA 1
+// #define VIRTUAL_TEXTURE_ANISOTROPIC_FILTERING 0
+// #define WORKGRAPHCOMPUTESHADER 0
+// #define WORKGRAPHROOTSHADER 0
+// #define WORKING_COLOR_SPACE_IS_SRGB 1
+#line 1146 "/Engine/Public/Platform.ush"
+bool select_internal(bool    c, bool a, bool b) { return bool (c   ? a.x : b.x); }
+bool2 select_internal(bool    c, bool a, bool2 b) { return bool2(c   ? a   : b.x, c   ? a   : b.y); }
+bool2 select_internal(bool    c, bool2 a, bool b) { return bool2(c   ? a.x : b  , c   ? a.y : b  ); }
+bool2 select_internal(bool    c, bool2 a, bool2 b) { return bool2(c   ? a.x : b.x, c   ? a.y : b.y); }
+bool2 select_internal(bool2   c, bool a, bool b) { return bool2(c.x ? a   : b  , c.y ? a   : b  ); }
+bool2 select_internal(bool2   c, bool a, bool2 b) { return bool2(c.x ? a   : b.x, c.y ? a   : b.y); }
+bool2 select_internal(bool2   c, bool2 a, bool b) { return bool2(c.x ? a.x : b  , c.y ? a.y : b  ); }
+bool2 select_internal(bool2   c, bool2 a, bool2 b) { return bool2(c.x ? a.x : b.x, c.y ? a.y : b.y); }
+bool3 select_internal(bool    c, bool a, bool3 b) { return bool3(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z); }
+bool3 select_internal(bool    c, bool3 a, bool b) { return bool3(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  ); }
+bool3 select_internal(bool    c, bool3 a, bool3 b) { return bool3(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z); }
+bool3 select_internal(bool3   c, bool a, bool b) { return bool3(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  ); }
+bool3 select_internal(bool3   c, bool a, bool3 b) { return bool3(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z); }
+bool3 select_internal(bool3   c, bool3 a, bool b) { return bool3(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  ); }
+bool3 select_internal(bool3   c, bool3 a, bool3 b) { return bool3(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z); }
+bool4 select_internal(bool    c, bool a, bool4 b) { return bool4(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z, c   ? a   : b.w); }
+bool4 select_internal(bool    c, bool4 a, bool b) { return bool4(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  , c   ? a.w : b  ); }
+bool4 select_internal(bool    c, bool4 a, bool4 b) { return bool4(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z, c   ? a.w : b.w); }
+bool4 select_internal(bool4   c, bool a, bool b) { return bool4(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  , c.w ? a   : b  ); }
+bool4 select_internal(bool4   c, bool a, bool4 b) { return bool4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
+bool4 select_internal(bool4   c, bool4 a, bool b) { return bool4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
+bool4 select_internal(bool4   c, bool4 a, bool4 b) { return bool4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
+
+#line 1151 "/Engine/Public/Platform.ush"
+int select_internal(bool    c, int a, int b) { return int (c   ? a.x : b.x); }
+int2 select_internal(bool    c, int a, int2 b) { return int2(c   ? a   : b.x, c   ? a   : b.y); }
+int2 select_internal(bool    c, int2 a, int b) { return int2(c   ? a.x : b  , c   ? a.y : b  ); }
+int2 select_internal(bool    c, int2 a, int2 b) { return int2(c   ? a.x : b.x, c   ? a.y : b.y); }
+int2 select_internal(bool2   c, int a, int b) { return int2(c.x ? a   : b  , c.y ? a   : b  ); }
+int2 select_internal(bool2   c, int a, int2 b) { return int2(c.x ? a   : b.x, c.y ? a   : b.y); }
+int2 select_internal(bool2   c, int2 a, int b) { return int2(c.x ? a.x : b  , c.y ? a.y : b  ); }
+int2 select_internal(bool2   c, int2 a, int2 b) { return int2(c.x ? a.x : b.x, c.y ? a.y : b.y); }
+int3 select_internal(bool    c, int a, int3 b) { return int3(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z); }
+int3 select_internal(bool    c, int3 a, int b) { return int3(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  ); }
+int3 select_internal(bool    c, int3 a, int3 b) { return int3(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z); }
+int3 select_internal(bool3   c, int a, int b) { return int3(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  ); }
+int3 select_internal(bool3   c, int a, int3 b) { return int3(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z); }
+int3 select_internal(bool3   c, int3 a, int b) { return int3(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  ); }
+int3 select_internal(bool3   c, int3 a, int3 b) { return int3(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z); }
+int4 select_internal(bool    c, int a, int4 b) { return int4(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z, c   ? a   : b.w); }
+int4 select_internal(bool    c, int4 a, int b) { return int4(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  , c   ? a.w : b  ); }
+int4 select_internal(bool    c, int4 a, int4 b) { return int4(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z, c   ? a.w : b.w); }
+int4 select_internal(bool4   c, int a, int b) { return int4(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  , c.w ? a   : b  ); }
+int4 select_internal(bool4   c, int a, int4 b) { return int4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
+int4 select_internal(bool4   c, int4 a, int b) { return int4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
+int4 select_internal(bool4   c, int4 a, int4 b) { return int4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
+float select_internal(bool    c, float a, float b) { return float (c   ? a.x : b.x); }
+float2 select_internal(bool    c, float a, float2 b) { return float2(c   ? a   : b.x, c   ? a   : b.y); }
+float2 select_internal(bool    c, float2 a, float b) { return float2(c   ? a.x : b  , c   ? a.y : b  ); }
+float2 select_internal(bool    c, float2 a, float2 b) { return float2(c   ? a.x : b.x, c   ? a.y : b.y); }
+float2 select_internal(bool2   c, float a, float b) { return float2(c.x ? a   : b  , c.y ? a   : b  ); }
+float2 select_internal(bool2   c, float a, float2 b) { return float2(c.x ? a   : b.x, c.y ? a   : b.y); }
+float2 select_internal(bool2   c, float2 a, float b) { return float2(c.x ? a.x : b  , c.y ? a.y : b  ); }
+float2 select_internal(bool2   c, float2 a, float2 b) { return float2(c.x ? a.x : b.x, c.y ? a.y : b.y); }
+float3 select_internal(bool    c, float a, float3 b) { return float3(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z); }
+float3 select_internal(bool    c, float3 a, float b) { return float3(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  ); }
+float3 select_internal(bool    c, float3 a, float3 b) { return float3(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z); }
+float3 select_internal(bool3   c, float a, float b) { return float3(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  ); }
+float3 select_internal(bool3   c, float a, float3 b) { return float3(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z); }
+float3 select_internal(bool3   c, float3 a, float b) { return float3(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  ); }
+float3 select_internal(bool3   c, float3 a, float3 b) { return float3(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z); }
+float4 select_internal(bool    c, float a, float4 b) { return float4(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z, c   ? a   : b.w); }
+float4 select_internal(bool    c, float4 a, float b) { return float4(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  , c   ? a.w : b  ); }
+float4 select_internal(bool    c, float4 a, float4 b) { return float4(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z, c   ? a.w : b.w); }
+float4 select_internal(bool4   c, float a, float b) { return float4(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  , c.w ? a   : b  ); }
+float4 select_internal(bool4   c, float a, float4 b) { return float4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
+float4 select_internal(bool4   c, float4 a, float b) { return float4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
+float4 select_internal(bool4   c, float4 a, float4 b) { return float4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
+
+#line 45 "/Engine/Private/Common.ush"
+struct FloatDeriv2
+{
+	float2 Value;
+	float2 Ddx;
+	float2 Ddy;
+};
+
+#line 304 "/Engine/Private/Common.ush"
+float4 Texture2DSample(Texture2D Tex, SamplerState Sampler, float2 UV)
+{
+
+
+
+	return Tex.Sample(Sampler, UV);
+
+}
+
+#line 312 "/Engine/Private/Common.ush"
+float4 Texture2DSample(Texture2D Tex, SamplerState Sampler, FloatDeriv2 UV)
+{
+
+
+
+	return Tex.SampleGrad(Sampler, UV.Value, UV.Ddx, UV.Ddy);
+
+}
+
+#line 738 "/Engine/Private/Common.ush"
+float3 LuminanceFactors()
+{
+
+
+
+
+		return float3(0.2126390059, 0.7151686788, 0.0721923154);
+
+
+
+
+}
+
+#line 751 "/Engine/Private/Common.ush"
+float Luminance( float3 LinearColor )
+{
+	return dot( LinearColor, float3(LuminanceFactors()));
+}
+
+#line 2031 "/Engine/Private/Common.ush"
+struct FScreenVertexOutput
+{
+	noperspective float2 UV : TEXCOORD0;
+	float4 Position : SV_POSITION;
+};
+
+#line 48 "/Engine/Private/GammaCorrectionCommon.ush"
+float3 sRGBToLinear( float3 Color ) 
+{
+
+	return  select_internal( Color > 0.04045 , pow( abs(Color) * (1.0 / 1.055) + 0.0521327, 2.4 ) , Color * (1.0 / 12.92) );
+}
+
+#line 67 "/Engine/Private/ACES/ACESCommon.ush"
+static const float3x3 XYZ_2_sRGB_MAT =
+{
+	 3.2409699419, -1.5373831776, -0.4986107603,
+	-0.9692436363,  1.8759675015,  0.0415550574,
+	 0.0556300797, -0.2039769589,  1.0569715142,
+};
+
+#line 74 "/Engine/Private/ACES/ACESCommon.ush"
+static const float3x3 sRGB_2_XYZ_MAT =
+{
+	0.4123907993, 0.3575843394, 0.1804807884,
+	0.2126390059, 0.7151686788, 0.0721923154,
+	0.0193308187, 0.1191947798, 0.9505321522,
+};
+
+#line 82 "/Engine/Private/ACES/ACESCommon.ush"
+static const float3x3 XYZ_2_Rec2020_MAT =
+{
+	 1.7166511880, -0.3556707838, -0.2533662814,
+	-0.6666843518,  1.6164812366,  0.0157685458,
+	 0.0176398574, -0.0427706133,  0.9421031212,
+};
+
+#line 89 "/Engine/Private/ACES/ACESCommon.ush"
+static const float3x3 Rec2020_2_XYZ_MAT =
+{
+	0.6369580483, 0.1446169036, 0.1688809752,
+	0.2627002120, 0.6779980715, 0.0593017165,
+	0.0000000000, 0.0280726930, 1.0609850577,
+};
+
+#line 7 "/Engine/Private/ColorDeficiency.ush"
+static const float3 RGB_2_Protanomaly[11 * 3] =
+{
+
+	float3(1.0, 0.0, 0.0),
+	float3(0.0, 1.0, 0.0),
+	float3(0.0, 0.0, 1.0),
+
+	float3(0.856167, 0.182038, -0.038205),
+	float3(0.029342, 0.955115, 0.015544),
+	float3(-0.002880, -0.001563, 1.004443),
+
+	float3(0.734766, 0.334872, -0.069637),
+	float3(0.051840, 0.919198, 0.028963),
+	float3(-0.004928, -0.004209, 1.009137),
+
+	float3(0.630323, 0.465641, -0.095964),
+	float3(0.069181, 0.890046, 0.040773),
+	float3(-0.006308, -0.007724, 1.014032),
+
+	float3(0.539009, 0.579343, -0.118352),
+	float3(0.082546, 0.866121, 0.051332),
+	float3(-0.007136, -0.011959, 1.019095),
+
+	float3(0.458064, 0.679578, -0.137642),
+	float3(0.092785, 0.846313, 0.060902),
+	float3(-0.007494, -0.016807, 1.024301),
+
+	float3(0.385450, 0.769005, -0.154455),
+	float3(0.100526, 0.829802, 0.069673),
+	float3(-0.007442, -0.022190, 1.029632),
+
+	float3(0.319627, 0.849633, -0.169261),
+	float3(0.106241, 0.815969, 0.077790),
+	float3(-0.007025, -0.028051, 1.035076),
+
+	float3(0.259411, 0.923008, -0.182420),
+	float3(0.110296, 0.804340, 0.085364),
+	float3(-0.006276, -0.034346, 1.040622),
+
+	float3(0.203876, 0.990338, -0.194214),
+	float3(0.112975, 0.794542, 0.092483),
+	float3(-0.005222, -0.041043, 1.046265),
+
+	float3(0.152286, 1.052583, -0.204868),
+	float3(0.114503, 0.786281, 0.099216),
+	float3(-0.003882, -0.048116, 1.051998)
+};
+
+#line 55 "/Engine/Private/ColorDeficiency.ush"
+static const float3 RGB_2_Deuteranomaly[11 * 3] =
+{
+
+	float3(1.0, 0.0, 0.0),
+	float3(0.0, 1.0, 0.0),
+	float3(0.0, 0.0, 1.0),
+
+	float3(0.866435, 0.177704, -0.044139),
+	float3(0.049567, 0.939063, 0.011370),
+	float3(-0.003453, 0.007233, 0.996220),
+
+	float3(0.760729, 0.319078, -0.079807),
+	float3(0.090568, 0.889315, 0.020117),
+	float3(-0.006027, 0.013325, 0.992702),
+
+	float3(0.675425, 0.433850, -0.109275),
+	float3(0.125303, 0.847755, 0.026942),
+	float3(-0.007950, 0.018572, 0.989378),
+
+	float3(0.605511, 0.528560, -0.134071),
+	float3(0.155318, 0.812366, 0.032316),
+	float3(-0.009376, 0.023176, 0.986200),
+
+	float3(0.547494, 0.607765, -0.155259),
+	float3(0.181692, 0.781742, 0.036566),
+	float3(-0.010410, 0.027275, 0.983136),
+
+	float3(0.498864, 0.674741, -0.173604),
+	float3(0.205199, 0.754872, 0.039929),
+	float3(-0.011131, 0.030969, 0.980162),
+
+	float3(0.457771, 0.731899, -0.189670),
+	float3(0.226409, 0.731012, 0.042579),
+	float3(-0.011595, 0.034333, 0.977261),
+
+	float3(0.422823, 0.781057, -0.203881),
+	float3(0.245752, 0.709602, 0.044646),
+	float3(-0.011843, 0.037423, 0.974421),
+
+	float3(0.392952, 0.823610, -0.216562),
+	float3(0.263559, 0.690210, 0.046232),
+	float3(-0.011910, 0.040281, 0.971630),
+
+	float3(0.367322, 0.860646, -0.227968),
+	float3(0.280085, 0.672501, 0.047413),
+	float3(-0.011820, 0.042940, 0.968881)
+};
+
+#line 103 "/Engine/Private/ColorDeficiency.ush"
+static const float3 RGB_2_Tritanomaly[11 * 3] =
+{
+
+	float3(1.0, 0.0, 0.0),
+	float3(0.0, 1.0, 0.0),
+	float3(0.0, 0.0, 1.0),
+
+	float3(0.926670, 0.092514, -0.019184),
+	float3(0.021191, 0.964503, 0.014306),
+	float3(0.008437, 0.054813, 0.936750),
+
+	float3(0.895720, 0.133330, -0.029050),
+	float3(0.029997, 0.945400, 0.024603),
+	float3(0.013027, 0.104707, 0.882266),
+
+	float3(0.905871, 0.127791, -0.033662),
+	float3(0.026856, 0.941251, 0.031893),
+	float3(0.013410, 0.148296, 0.838294),
+
+	float3(0.948035, 0.089490, -0.037526),
+	float3(0.014364, 0.946792, 0.038844),
+	float3(0.010853, 0.193991, 0.795156),
+
+	float3(1.017277, 0.027029, -0.044306),
+	float3(-0.006113, 0.958479, 0.047634),
+	float3(0.006379, 0.248708, 0.744913),
+
+	float3(1.104996, -0.046633, -0.058363),
+	float3(-0.032137, 0.971635, 0.060503),
+	float3(0.001336, 0.317922, 0.680742),
+
+	float3(1.193214, -0.109812, -0.083402),
+	float3(-0.058496, 0.979410, 0.079086),
+	float3(-0.002346, 0.403492, 0.598854),
+
+	float3(1.257728, -0.139648, -0.118081),
+	float3(-0.078003, 0.975409, 0.102594),
+	float3(-0.003316, 0.501214, 0.502102),
+
+	float3(1.278864, -0.125333, -0.153531),
+	float3(-0.084748, 0.957674, 0.127074),
+	float3(-0.000989, 0.601151, 0.399838),
+
+	float3(1.255528, -0.076749, -0.178779),
+	float3(-0.078411, 0.930809, 0.147602),
+	float3(0.004733, 0.691367, 0.303900)
+};
+
+#line 157 "/Engine/Private/ColorDeficiency.ush"
+float3 ConvertSourceRGBToDeficientRGB(float3 SourceRGB, float ColorVisionDeficiencySeverity, float ColorVisionDeficiencyType)
+{
+	float3 DeficientRGB = SourceRGB;
+	int Index = (int)ColorVisionDeficiencySeverity * 3;
+	if (ColorVisionDeficiencyType == 1)
+	{
+		float3x3 Mat = float3x3(RGB_2_Deuteranomaly[Index], RGB_2_Deuteranomaly[Index + 1], RGB_2_Deuteranomaly[Index + 2]);
+		DeficientRGB = mul(Mat, SourceRGB);
+	}
+	else if (ColorVisionDeficiencyType == 2)
+	{
+		float3x3 Mat = float3x3(RGB_2_Protanomaly[Index], RGB_2_Protanomaly[Index + 1], RGB_2_Protanomaly[Index + 2]);
+		DeficientRGB = mul(Mat, SourceRGB);
+	}
+	else if (ColorVisionDeficiencyType == 3)
+	{
+		float3x3 Mat = float3x3(RGB_2_Tritanomaly[Index], RGB_2_Tritanomaly[Index + 1], RGB_2_Tritanomaly[Index + 2]);
+		DeficientRGB = mul(Mat, SourceRGB);
+	}
+
+	return DeficientRGB;
+}
+
+#line 188 "/Engine/Private/ColorDeficiency.ush"
+static const float3x3 RGB_DALTONIZE_RED_BLIND =
+{
+	0.5, 1.0, 1.0,
+	0.5, 0.5, 0.5,
+	0.5, 0.5, 0.5,
+};
+
+#line 195 "/Engine/Private/ColorDeficiency.ush"
+static const float3x3 RGB_DALTONIZE_GREEN_BLIND =
+{
+	0.5, 0.0, 0.5,
+	1.0, 0.0, 1.0,
+	0.5, 0.0, 0.5,
+};
+
+#line 202 "/Engine/Private/ColorDeficiency.ush"
+static const float3x3 RGB_DALTONIZE_BLUE_BLIND =
+{
+	0.5, 0.5, 0.5,
+	0.5, 0.5, 0.5,
+	1.0, 1.0, 0.5,
+};
+
+#line 212 "/Engine/Private/ColorDeficiency.ush"
+float3 ColorDeficiency(float3 SourceRGB, float ColorVisionDeficiencyType, float ColorVisionDeficiencySeverity, float bCorrectDeficiency, float bSimulateCorrectionWithDeficiency)
+{
+	float3 DeficientRGB = ConvertSourceRGBToDeficientRGB(SourceRGB, ColorVisionDeficiencySeverity, ColorVisionDeficiencyType);
+
+	float3 OutRGB = DeficientRGB;
+
+	if (bCorrectDeficiency == 1)
+	{
+
+
+			float3 ErrorRGB = (SourceRGB - DeficientRGB);
+
+
+
+
+
+				float3 CorrectionRGB = float3(0.0, 0.0, 0.0);
+				if (ColorVisionDeficiencyType == 1)
+				{
+					CorrectionRGB = mul(RGB_DALTONIZE_GREEN_BLIND, ErrorRGB);
+				}
+				else if (ColorVisionDeficiencyType == 2)
+				{
+					CorrectionRGB = mul(RGB_DALTONIZE_RED_BLIND, ErrorRGB);
+				}
+				else if (ColorVisionDeficiencyType == 3)
+				{
+					CorrectionRGB = mul(RGB_DALTONIZE_BLUE_BLIND, ErrorRGB);
+				}
+
+
+
+			OutRGB = SourceRGB + CorrectionRGB;
+
+
+		if (bSimulateCorrectionWithDeficiency == 1)
+		{
+			OutRGB = ConvertSourceRGBToDeficientRGB(OutRGB, ColorVisionDeficiencySeverity, ColorVisionDeficiencyType);
+		}
+	}
+
+	return OutRGB;
+}
+
+#line 16 "/Engine/Private/CompositeUIPixelShader.usf"
+float ColorVisionDeficiencyType;
+float ColorVisionDeficiencySeverity;
+float bCorrectDeficiency;
+float bSimulateCorrectionWithDeficiency;
+
+#line 27 "/Engine/Private/CompositeUIPixelShader.usf"
+Texture2D UITexture;
+SamplerState UISampler;
+
+#line 30 "/Engine/Private/CompositeUIPixelShader.usf"
+Texture2D SceneTexture;
+SamplerState SceneSampler;
+
+#line 33 "/Engine/Private/CompositeUIPixelShader.usf"
+float UILevel;
+float UILuminance;
+
+#line 37 "/Engine/Private/CompositeUIPixelShader.usf"
+float3 LinearizeColor(float3 EncodedColor)
+{
+
+
+
+
+
+
+
+
+			return sRGBToLinear(EncodedColor);
+
+
+}
+
+#line 52 "/Engine/Private/CompositeUIPixelShader.usf"
+static const float ScRGBScaleFactor = 80.0f;
+
+#line 65 "/Engine/Private/CompositeUIPixelShader.usf"
+float3 ComposeUIAndScene(float3 SceneColor, float4 InUIColor, float InUILevel)
+{
+	[branch]
+	if (InUIColor.w > 0.f && InUIColor.w < 1.f)
+	{
+
+		SceneColor = max(SceneColor, 0.f);
+
+
+
+
+		float KR = 0.2627, KG = 0.678, KB = 0.0593;
+		float Luminance = dot(SceneColor, float3(KR, KG, KB)) / InUILevel;
+		float OutL = 1.f / (Luminance + 1.f);
+
+
+		SceneColor *= lerp(1.f, OutL * InUILevel, InUIColor.w);
+	}
+
+
+	return SceneColor * (1.f - InUIColor.w) + InUIColor.xyz * InUILevel;
+}
+
+#line 88 "/Engine/Private/CompositeUIPixelShader.usf"
+float3 ApplyColorDeficiency(float3 Rec2020Color)
+{
+
+	const float3x3 Rec2020_2_sRGB = mul(XYZ_2_sRGB_MAT, Rec2020_2_XYZ_MAT);
+	const float3x3 sRGB_2_Rec2020 = mul(XYZ_2_Rec2020_MAT, sRGB_2_XYZ_MAT);
+	float3 SRGBColor = mul(Rec2020_2_sRGB, Rec2020Color.xyz);
+	SRGBColor = ColorDeficiency(SRGBColor, ColorVisionDeficiencyType, ColorVisionDeficiencySeverity, bCorrectDeficiency, bSimulateCorrectionWithDeficiency);
+	Rec2020Color = mul(sRGB_2_Rec2020, SRGBColor);
+
+
+	return Rec2020Color;
+}
+
+#line 104 "/Engine/Private/CompositeUIPixelShader.usf"
+float4 ComputeHDRUIColor(float2 InputUV)
+{
+	const float3x3 sRGB_2_Rec2020 = mul(XYZ_2_Rec2020_MAT, sRGB_2_XYZ_MAT);
+	float4 UIColor = Texture2DSample(UITexture, UISampler, InputUV);
+	UIColor.xyz = LinearizeColor(UIColor.xyz);
+	UIColor.xyz = mul(sRGB_2_Rec2020, UIColor.xyz) * UILuminance;
+	return UIColor;
+}
+
+#line 113 "/Engine/Private/CompositeUIPixelShader.usf"
+float3 ComputeHDRSceneColor(float3 SceneColor)
+{
+	const float3x3 sRGB_2_Rec2020 = mul(XYZ_2_Rec2???AT, sRGB_2_XYZ_MAT);
+
+
+
+	SceneColor.xyz = mul(sRGB_2_Rec2020, SceneColor.xyz) * ScRGBScaleFactor;
+
+	return SceneColor;
+}
+
+#line 124 "/Engine/Private/CompositeUIPixelShader.usf"
+void Main(
+	FScreenVertexOutput Input,
+	out float4 OutColor : SV_Target0
+	)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+	float4 UIColor = ComputeHDRUIColor(Input.UV);
+
+
+
+
+
+
+
+
+	float3 SceneColor = Texture2DSample(SceneTexture, SceneSampler, Input.UV).xyz;
+	SceneColor = ComputeHDRSceneColor(SceneColor);
+	OutColor.xyz = ComposeUIAndScene(SceneColor.xyz, UIColor, UILevel);
+
+	OutColor.rgb = ApplyColorDeficiency(OutColor.rgb);
+
+
+	OutColor.w = UIColor.w;
+
+
+
+
+
+	const float3x3 Rec2020_2_sRGB = mul(XYZ_2_sRGB_MAT, Rec2020_2_XYZ_MAT);
+	OutColor.xyz = mul(Rec2020_2_sRGB, OutColor.xyz / ScRGBScaleFactor);
+
+}
+
+/* BASE64_ENV
+BgAAABkAAABWSUVXX0hBU19USUxFT0ZGU0VUX0RBVEEAAAEAAAAeAAAAUFJJTUlUSVZFX0hBU19USUxFT0ZGU0VUX0RBVEEAAAEAAAARAAAASU5TVEFOQ0VEX1NURVJFTwAAAAAAAAsAAABNVUxUSV9WSUVXAAAAAAAAEgAAAE1PQklMRV9NVUxUSV9WSUVXAAAAAAAAFgAAAFBMQVRGT1JNX01BWF9TQU1QTEVSUwADIAAAAAAQEBACAAAAAAAAAGoAAAAJCQAACQkBAAkJAgAJCQMACREEAAkRBQAJCQYABAgAAAQIAQAEBQIABAUDAAQFBAAEBQUABAUGAAQFBwAEBQgABAUJAAQFCgAEBQsABAgMAAQIDQAECA4ABAgPAAQIEAAECBEABAgSAAQIEwAECBQABAUVAAQFFgAEBRcABAUYAAQIGQAECBoABAgbAAQFHAAECB0ABAUeAAQIHwAEBSAABAghAAQFIgAECCMABAUkAAQIJQAEBSYABAgnAAQIKAAECCkABAgqAAQIKwAECCwABAgtAAQFLgAECC8ABAYwAAQFMQAECDIABAUzAAQINAAEBTUABAg2AAQFNwAECDgABAU5AAQIOgAEBjsABAY8AAQFPQAECD4ABAU/AAQIQAAEBUEABAhCAAQFQwAECEQABAVFAAQFRgAEBUcABAVIAAQISQAEBUoABAhLAAQFTAAECE0ABAVOAAQITwAEBVAABAhRAAQIUgAEBVMABAhUAAQFVQAECFYABAZXAAQGWAAEBVkABAhaAAQFWwAECFwABAhdAAQGXgAEBl8ABAdgAAQGYQAEBWIABAAAABgAAABEcmF3UmVjdGFuZ2xlUGFyYW1ldGVycwAAAAAAAAAAAGKm4r8BAAoAAABTdWJzdHJhdGUAAAAAAN0AAABTAHUAYgBzAHQAcgBhAHQAZQBfAE0AYQB0AGUAcgBpAGEAbABUAGUAeAB0AHUAcgBlAEEAcgByAGEAeQAAAFMAdQBiAHMAdAByAGEAdABlAF8AVABvAHAATABhAHkAZQByAFQAZQB4AHQAdQByAGUAAABTAHUAYgBzAHQAcgBhAHQAZQBfAE8AcABhAHEAdQBlAFIAbwB1AGcAaABSAGUAZgByAGEAYwB0AGkAbwBuAFQAZQB4AHQAdQByAGUAAABTAHUAYgBzAHQAcgBhAHQAZQBfAEMAbABvAHMAdQByAGUATwBmAGYAcwBlAHQAVABlAHgAdAB1AHIAZQAAAFMAdQBiAHMAdAByAGEAdABlAF8AQwBsAG8AcwB1AHIAZQBUAGkAbABlAEIAdQBmAGYAZQByAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBDAGwAbwBzAHUAcgBlAFQAaQBsAGUAQwBvAHUAbgB0AEIAdQBmAGYAZQByAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBTAGEAbQBwAGwAZQBkAE0AYQB0AGUAcgBpAGEAbABUAGUAeAB0AHUAcgBlAAAA9remxAEABQAAAFZpZXcABQAAAFZpZXcADw0AAFYAaQBlAHcAXwBNAGEAdABlAHIAaQBhAGwAVABlAHgAdAB1AHIAZQBCAGkAbABpAG4AZQBhAHIAVwByAGEAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBNAGEAdABlAHIAaQBhAGwAVABlAHgAdAB1AHIAZQBCAGkAbABpAG4AZQBhAHIAQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEkAbgBkAGkAcgBlAGMAdABpAG8AbgBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBBAG0AYgBpAGUAbgB0AFYAZQBjAHQAbwByAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBTAEgAQwBvAGUAZgBmAGkAYwBpAGUAbgB0AHMAMAAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAUwBIAEMAbwBlAGYAZgBpAGMAaQBlAG4AdABzADEAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAFMASABDAG8AZQBmAGYAaQBjAGkAZQBuAHQAcwAyAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBTAEgAQwBvAGUAZgBmAGkAYwBpAGUAbgB0AHMAMwAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAUwBIAEMAbwBlAGYAZgBpAGMAaQBlAG4AdABzADQAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAFMASABDAG8AZQBmAGYAaQBjAGkAZQBuAHQAcwA1AAAAVgBpAGUAdwBfAFMAawB5AEIAZQBuAHQATgBvAHIAbQBhAGwAQgByAGkAYwBrAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARABpAHIAZQBjAHQAaQBvAG4AYQBsAEwAaQBnAGgAdABTAGgAYQBkAG8AdwBpAG4AZwBCAHIAaQBjAGsAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAQQBtAGIAaQBlAG4AdABWAGUAYwB0AG8AcgBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAwAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAxAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAyAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAzAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgA0AAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgA1AAAAVgBpAGUAdwBfAFMAawB5AEIAZQBuAHQATgBvAHIAbQBhAGwAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEQAaQByAGUAYwB0AGkAbwBuAGEAbABMAGkAZwBoAHQAUwBoAGEAZABvAHcAaQBuAGcAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQAUABhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAEMAbwB2AGUAcgBhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAFAAYQBnAGUAVABhAGIAbABlAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARwBsAG8AYgBhAGwARABpAHMAdABhAG4AYwBlAEYAaQBlAGwAZABNAGkAcABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQAUABhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQAQwBvAHYAZQByAGEAZwBlAEEAdABsAGEAcwBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARwBsAG8AYgBhAGwARABpAHMAdABhAG4AYwBlAEYAaQBlAGwAZABNAGkAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAcgByAGEAZABpAGEAbgBjAGUAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAcgByAGEAZABpAGEAbgBjAGUAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEEAdABtAG8AcwBwAGgAZQByAGUASQBuAHMAYwBhAHQAdABlAHIAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAbgBzAGMAYQB0AHQAZQByAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBQAGUAcgBsAGkAbgBOAG8AaQBzAGUARwByAGEAZABpAGUAbgB0AFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUABlAHIAbABpAG4ATgBvAGkAcwBlAEcAcgBhAGQAaQBlAG4AdABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUABlAHIAbABpAG4ATgBvAGkAcwBlADMARABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFAAZQByAGwAaQBuAE4AbwBpAHMAZQAzAEQAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAbwBiAG8AbABTAGEAbQBwAGwAaQBuAGcAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABQAG8AaQBuAHQAVwByAGEAcABwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAFAAbwBpAG4AdABDAGwAYQBtAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBoAGEAcgBlAGQAQgBpAGwAaQBuAGUAYQByAFcAcgBhAHAAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABCAGkAbABpAG4AZQBhAHIAQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAEIAaQBsAGkAbgBlAGEAcgBBAG4AaQBzAG8AQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAFQAcgBpAGwAaQBuAGUAYQByAFcAcgBhAHAAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABUAHIAaQBsAGkAbgBlAGEAcgBDAGwAYQBtAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUAByAGUASQBuAHQAZQBnAHIAYQB0AGUAZABCAFIARABGAAAAVgBpAGUAdwBfAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAQgBSAEQARgBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAawB5AEkAcgByAGEAZABpAGEAbgBjAGUARQBuAHYAaQByAG8AbgBtAGUAbgB0AE0AYQBwAAAAVgBpAGUAdwBfAFQAcgBhAG4AcwBtAGkAdAB0AGEAbgBjAGUATAB1AHQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAEwAdQB0AFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGsAeQBWAGkAZQB3AEwAdQB0AFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBrAHkAVgBpAGUAdwBMAHUAdABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQwBhAG0AZQByAGEAQQBlAHIAaQBhAGwAUABlAHIAcwBwAGUAYwB0AGkAdgBlAFYAbwBsAHUAbQBlAAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBNAGkAZQBPAG4AbAB5AAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBNAGkAZQBPAG4AbAB5AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQwBhAG0AZQByAGEAQQBlAHIAaQBhAGwAUABlAHIAcwBwAGUAYwB0AGkAdgBlAFYAbwBsAHUAbQBlAFIAYQB5AE8AbgBsAHkAAABWAGkAZQB3AF8AQwBhAG0AZQByAGEAQQBlAHIAaQBhAGwAUABlAHIAcwBwAGUAYwB0AGkAdgBlAFYAbwBsAHUAbQBlAFIAYQB5AE8AbgBsAHkAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBEAGkAcwB0AGEAbgB0AFMAawB5AEwAaQBnAGgAdABMAHUAdABCAHUAZgBmAGUAcgBTAFIAVgAAAFYAaQBlAHcAXwBNAG8AYgBpAGwAZQBEAGkAcwB0AGEAbgB0AFMAawB5AEwAaQBnAGgAdABMAHUAdABCAHUAZgBmAGUAcgBTAFIAVgAAAFYAaQBlAHcAXwBIAGEAaQByAFMAYwBhAHQAdABlAHIAaQBuAGcATABVAFQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBIAGEAaQByAFMAYwBhAHQAdABlAHIAaQBuAGcATABVAFQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBHAEcAWABMAFQAQwBNAGEAdABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEcARwBYAEwAVABDAE0AYQB0AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARwBHAFgATABUAEMAQQBtAHAAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAEcAWABMAFQAQwBBAG0AcABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABlAGUAbgBMAFQAQwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABlAGUAbgBMAFQAQwBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkARwBHAFgAUwBwAGUAYwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkARwBHAFgARwBsAGEAcwBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBoAGEAZABpAG4AZwBFAG4AZQByAGcAeQBDAGwAbwB0AGgAUwBwAGUAYwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkARABpAGYAZgB1AHMAZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBHAGwAaQBuAHQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAaQBuAHQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGkAbQBwAGwAZQBWAG8AbAB1AG0AZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaQBtAHAAbABlAFYAbwBsAHUAbQBlAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGkAbQBwAGwAZQBWAG8AbAB1AG0AZQBFAG4AdgBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaQBtAHAAbABlAFYAbwBsAHUAbQBlAEUAbgB2AFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBTAFAAcgBvAGYAaQBsAGUAcwBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAUwBQAHIAbwBmAGkAbABlAHMAVAByAGEAbgBzAG0AaQBzAHMAaQBvAG4AUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAHAAZQBjAHUAbABhAHIAUAByAG8AZgBpAGwAZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAcABlAGMAdQBsAGEAcgBQAHIAbwBmAGkAbABlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AVwBhAHQAZQByAEkAbgBkAGkAcgBlAGMAdABpAG8AbgAAAFYAaQBlAHcAXwBXAGEAdABlAHIARABhAHQAYQAAAFYAaQBlAHcAXwBSAGUAYwB0AEwAaQBnAGgAdABBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBSAGUAYwB0AEwAaQBnAGgAdABBAHQAbABhAHMAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBJAEUAUwBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBJAEUAUwBBAHQAbABhAHMAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBMAGEAbgBkAHMAYwBhAHAAZQBXAGUAaQBnAGgAdABtAGEAcABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEwAYQBuAGQAcwBjAGEAcABlAEkAbgBkAGkAcgBlAGMAdABpAG8AbgAAAFYAaQBlAHcAXwBMAGEAbgBkAHMAYwBhAHAAZQBQAGUAcgBDAG8AbQBwAG8AbgBlAG4AdABEAGEAdABhAAAAVgBpAGUAdwBfAFYAVABGAGUAZQBkAGIAYQBjAGsAQgB1AGYAZgBlAHIAAABWAGkAZQB3AF8AUABoAHkAcwBpAGMAcwBGAGkAZQBsAGQAQwBsAGkAcABtAGEAcABCAHUAZgBmAGUAcgAAAFYAaQBlAHcAXwBCAGwAdQBlAE4AbwBpAHMAZQBTAGMAYQBsAGEAcgBUAGUAeAB0AHUAcgBlAAAAnMjewQMADgAAAEluc3RhbmNlZFZpZXcADgAAAEluc3RhbmNlZFZpZXcAAAAAAAE1ym0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BASE64_ENV */
+/* DIRECT COMPILE
+-directcompile -format=PCD3D_SM6 -entry="Main" -shaderPlatformName=PCD3D_SM6 -supportedHardwareMask=0 -ps C:/Users/Administrador/Documents/GitHub/Path-J/Path_J/Saved/ShaderDebugInfo/PCD3D_SM6/Global/FCompositePS/3/CompositeUIPixelShader_DirectCompile.usf -nocrashreports
+DIRECT COMPILE */
