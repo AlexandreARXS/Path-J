@@ -1,0 +1,86 @@
+# Unreal Engine 5 Project Gitignore
+
+# Build outputs
+Binaries/
+Intermediate/
+Build/
+*.sln
+*.vcxproj*
+*.xcodeproj
+*.code-workspace
+
+# UE5 specific files
+DerivedDataCache/
+Saved/
+CompiledResults/
+*.workspace
+*.opendb
+*.autosave
+
+# Compiled assets and binaries
+*.ueasset
+*.umap
+*.uasset
+*.ubulk
+*.uptnl
+*.uexp
+*.ushaderbytecode
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.deb
+*.rpm
+*.ipa
+*.apk
+
+# Debug files
+*.pdb
+*.idb
+*.ilk
+*.vsp
+*.psess
+*.aps
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.*~
+*.backup
+*.tmp
+*.temp
+*.orig
+
+# Logs
+*.log
+*.txt
+Logs/
+
+# Visual Studio user files
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Plugin specific ignores
+[Pp]lugins/*/Binaries/
+[Pp]lugins/*/Intermediate/
+
+# Marketplace files
+Marketplace/
