@@ -1,0 +1,180 @@
+#line 1 "MoveShaderParametersToRootConstantBuffer"
+cbuffer _RootShaderParameters
+{
+float UILevel : packoffset(c2);
+float UILuminance : packoffset(c2.y);
+}
+
+// DebugHash_e41c441dc320bac1ba24ea908ce96b8d5446ea9383407d1ae1485b1eab988e00
+#line 1 "__UE_FILENAME_SENTINEL"
+bool select_internal(bool    c, bool a, bool b) { return bool (c   ? a.x : b.x); }
+bool2 select_internal(bool    c, bool a, bool2 b) { return bool2(c   ? a   : b.x, c   ? a   : b.y); }
+bool2 select_internal(bool    c, bool2 a, bool b) { return bool2(c   ? a.x : b  , c   ? a.y : b  ); }
+bool2 select_internal(bool    c, bool2 a, bool2 b) { return bool2(c   ? a.x : b.x, c   ? a.y : b.y); }
+bool2 select_internal(bool2   c, bool a, bool b) { return bool2(c.x ? a   : b  , c.y ? a   : b  ); }
+bool2 select_internal(bool2   c, bool a, bool2 b) { return bool2(c.x ? a   : b.x, c.y ? a   : b.y); }
+bool2 select_internal(bool2   c, bool2 a, bool b) { return bool2(c.x ? a.x : b  , c.y ? a.y : b  ); }
+bool2 select_internal(bool2   c, bool2 a, bool2 b) { return bool2(c.x ? a.x : b.x, c.y ? a.y : b.y); }
+bool3 select_internal(bool    c, bool a, bool3 b) { return bool3(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z); }
+bool3 select_internal(bool    c, bool3 a, bool b) { return bool3(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  ); }
+bool3 select_internal(bool    c, bool3 a, bool3 b) { return bool3(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z); }
+bool3 select_internal(bool3   c, bool a, bool b) { return bool3(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  ); }
+bool3 select_internal(bool3   c, bool a, bool3 b) { return bool3(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z); }
+bool3 select_internal(bool3   c, bool3 a, bool b) { return bool3(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  ); }
+bool3 select_internal(bool3   c, bool3 a, bool3 b) { return bool3(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z); }
+bool4 select_internal(bool    c, bool a, bool4 b) { return bool4(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z, c   ? a   : b.w); }
+bool4 select_internal(bool    c, bool4 a, bool b) { return bool4(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  , c   ? a.w : b  ); }
+bool4 select_internal(bool    c, bool4 a, bool4 b) { return bool4(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z, c   ? a.w : b.w); }
+bool4 select_internal(bool4   c, bool a, bool b) { return bool4(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  , c.w ? a   : b  ); }
+bool4 select_internal(bool4   c, bool a, bool4 b) { return bool4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
+bool4 select_internal(bool4   c, bool4 a, bool b) { return bool4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
+bool4 select_internal(bool4   c, bool4 a, bool4 b) { return bool4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
+int select_internal(bool    c, int a, int b) { return int (c   ? a.x : b.x); }
+int2 select_internal(bool    c, int a, int2 b) { return int2(c   ? a   : b.x, c   ? a   : b.y); }
+int2 select_internal(bool    c, int2 a, int b) { return int2(c   ? a.x : b  , c   ? a.y : b  ); }
+int2 select_internal(bool    c, int2 a, int2 b) { return int2(c   ? a.x : b.x, c   ? a.y : b.y); }
+int2 select_internal(bool2   c, int a, int b) { return int2(c.x ? a   : b  , c.y ? a   : b  ); }
+int2 select_internal(bool2   c, int a, int2 b) { return int2(c.x ? a   : b.x, c.y ? a   : b.y); }
+int2 select_internal(bool2   c, int2 a, int b) { return int2(c.x ? a.x : b  , c.y ? a.y : b  ); }
+int2 select_internal(bool2   c, int2 a, int2 b) { return int2(c.x ? a.x : b.x, c.y ? a.y : b.y); }
+int3 select_internal(bool    c, int a, int3 b) { return int3(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z); }
+int3 select_internal(bool    c, int3 a, int b) { return int3(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  ); }
+int3 select_internal(bool    c, int3 a, int3 b) { return int3(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z); }
+int3 select_internal(bool3   c, int a, int b) { return int3(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  ); }
+int3 select_internal(bool3   c, int a, int3 b) { return int3(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z); }
+int3 select_internal(bool3   c, int3 a, int b) { return int3(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  ); }
+int3 select_internal(bool3   c, int3 a, int3 b) { return int3(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z); }
+int4 select_internal(bool    c, int a, int4 b) { return int4(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z, c   ? a   : b.w); }
+int4 select_internal(bool    c, int4 a, int b) { return int4(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  , c   ? a.w : b  ); }
+int4 select_internal(bool    c, int4 a, int4 b) { return int4(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z, c   ? a.w : b.w); }
+int4 select_internal(bool4   c, int a, int b) { return int4(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  , c.w ? a   : b  ); }
+int4 select_internal(bool4   c, int a, int4 b) { return int4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
+int4 select_internal(bool4   c, int4 a, int b) { return int4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
+int4 select_internal(bool4   c, int4 a, int4 b) { return int4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
+float select_internal(bool    c, float a, float b) { return float (c   ? a.x : b.x); }
+float2 select_internal(bool    c, float a, float2 b) { return float2(c   ? a   : b.x, c   ? a   : b.y); }
+float2 select_internal(bool    c, float2 a, float b) { return float2(c   ? a.x : b  , c   ? a.y : b  ); }
+float2 select_internal(bool    c, float2 a, float2 b) { return float2(c   ? a.x : b.x, c   ? a.y : b.y); }
+float2 select_internal(bool2   c, float a, float b) { return float2(c.x ? a   : b  , c.y ? a   : b  ); }
+float2 select_internal(bool2   c, float a, float2 b) { return float2(c.x ? a   : b.x, c.y ? a   : b.y); }
+float2 select_internal(bool2   c, float2 a, float b) { return float2(c.x ? a.x : b  , c.y ? a.y : b  ); }
+float2 select_internal(bool2   c, float2 a, float2 b) { return float2(c.x ? a.x : b.x, c.y ? a.y : b.y); }
+float3 select_internal(bool    c, float a, float3 b) { return float3(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z); }
+float3 select_internal(bool    c, float3 a, float b) { return float3(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  ); }
+float3 select_internal(bool    c, float3 a, float3 b) { return float3(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z); }
+float3 select_internal(bool3   c, float a, float b) { return float3(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  ); }
+float3 select_internal(bool3   c, float a, float3 b) { return float3(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z); }
+float3 select_internal(bool3   c, float3 a, float b) { return float3(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  ); }
+float3 select_internal(bool3   c, float3 a, float3 b) { return float3(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z); }
+float4 select_internal(bool    c, float a, float4 b) { return float4(c   ? a   : b.x, c   ? a   : b.y, c   ? a   : b.z, c   ? a   : b.w); }
+float4 select_internal(bool    c, float4 a, float b) { return float4(c   ? a.x : b  , c   ? a.y : b  , c   ? a.z : b  , c   ? a.w : b  ); }
+float4 select_internal(bool    c, float4 a, float4 b) { return float4(c   ? a.x : b.x, c   ? a.y : b.y, c   ? a.z : b.z, c   ? a.w : b.w); }
+float4 select_internal(bool4   c, float a, float b) { return float4(c.x ? a   : b  , c.y ? a   : b  , c.z ? a   : b  , c.w ? a   : b  ); }
+float4 select_internal(bool4   c, float a, float4 b) { return float4(c.x ? a   : b.x, c.y ? a   : b.y, c.z ? a   : b.z, c.w ? a   : b.w); }
+float4 select_internal(bool4   c, float4 a, float b) { return float4(c.x ? a.x : b  , c.y ? a.y : b  , c.z ? a.z : b  , c.w ? a.w : b  ); }
+float4 select_internal(bool4   c, float4 a, float4 b) { return float4(c.x ? a.x : b.x, c.y ? a.y : b.y, c.z ? a.z : b.z, c.w ? a.w : b.w); }
+struct FloatDeriv2
+{
+	float2 Value;
+	float2 Ddx;
+	float2 Ddy;
+};
+float4 Texture2DSample(Texture2D Tex, SamplerState Sampler, float2 UV)
+{
+	return Tex.Sample(Sampler, UV);
+}
+float4 Texture2DSample(Texture2D Tex, SamplerState Sampler, FloatDeriv2 UV)
+{
+	return Tex.SampleGrad(Sampler, UV.Value, UV.Ddx, UV.Ddy);
+}
+float3 LuminanceFactors()
+{
+		return float3(0.2126390059, 0.7151686788, 0.0721923154);
+}
+float Luminance( float3 LinearColor )
+{
+	return dot( LinearColor, float3(LuminanceFactors()));
+}
+struct FScreenVertexOutput
+{
+	noperspective float2 UV : TEXCOORD0;
+	float4 Position : SV_POSITION;
+};
+float3 sRGBToLinear( float3 Color ) 
+{
+	return  select_internal( Color > 0.04045 , pow( abs(Color) * (1.0 / 1.055) + 0.0521327, 2.4 ) , Color * (1.0 / 12.92) );
+}
+float3
+ST2084ToLinear(float3 pq)
+{
+	const float m1 = 0.1593017578125; 
+	const float m2 = 78.84375; 
+	const float c1 = 0.8359375; 
+	const float c2 = 18.8515625; 
+	const float c3 = 18.6875; 
+	const float C = 10000.;
+	float3 Np = pow( pq, 1./m2 );
+	float3 L = Np - c1;
+	L = max(0., L);
+	L = L / (c2 - c3 * Np);
+	L = pow( L, 1./m1 );
+	float3 P = L * C;
+	return P;
+}
+static const float3x3 sRGB_2_XYZ_MAT =
+{
+	0.4123907993, 0.3575843394, 0.1804807884,
+	0.2126390059, 0.7151686788, 0.0721923154,
+	0.0193308187, 0.1191947798, 0.9505321522,
+};
+static const float3x3 XYZ_2_Rec2020_MAT =
+{
+	 1.7166511880, -0.3556707838, -0.2533662814,
+	-0.6666843518,  1.6164812366,  0.0157685458,
+	 0.0176398574, -0.0427706133,  0.9421031212,
+};
+Texture2D UITexture;
+SamplerState UISampler;
+Texture2D SceneTexture;
+              
+                  
+float3 LinearizeColor(float3 EncodedColor)
+{
+			return sRGBToLinear(EncodedColor);
+}
+static const float ScRGBScaleFactor = 80.0f;
+float3 ComposeUIAndScene(float3 SceneColor, float4 InUIColor, float InUILevel)
+{
+	[branch]
+	if (InUIColor.w > 0.f && InUIColor.w < 1.f)
+	{
+		SceneColor = max(SceneColor, 0.f);
+		float KR = 0.2627, KG = 0.678, KB = 0.0593;
+		float Luminance = dot(SceneColor, float3(KR, KG, KB)) / InUILevel;
+		float OutL = 1.f / (Luminance + 1.f);
+		SceneColor *= lerp(1.f, OutL * InUILevel, InUIColor.w);
+	}
+	return SceneColor * (1.f - InUIColor.w) + InUIColor.xyz * InUILevel;
+}
+float4 ComputeHDRUIColor(float2 InputUV)
+{
+	const float3x3 sRGB_2_Rec2020 = mul(XYZ_2_Rec2020_MAT, sRGB_2_XYZ_MAT);
+	float4 UIColor = Texture2DSample(UITexture, UISampler, InputUV);
+	UIColor.xyz = LinearizeColor(UIColor.xyz);
+	UIColor.xyz = mul(sRGB_2_Rec2020, UIColor.xyz) * UILuminance;
+	return UIColor;
+}
+float3 ComputeHDRSceneColor(float3 SceneColor)
+{
+	const float3x3 sRGB_2_Rec2020 = mul(XYZ_2_Rec2???AT, sRGB_2_XYZ_MAT);
+	SceneColor.xyz = ST2084ToLinear(SceneColor.xyz);
+	return SceneColor;
+}
+void CompositeUIForBlur(FScreenVertexOutput Input, out float4 OutColor : SV_Target0)
+{
+	float4 UIColor = ComputeHDRUIColor(Input.UV);
+	float3 SceneColor = Texture2DSample(SceneTexture, UISampler, Input.UV).xyz;
+	SceneColor = ComputeHDRSceneColor(SceneColor);
+	OutColor.xyz = ComposeUIAndScene(SceneColor.xyz, UIColor, UILevel) / ScRGBScaleFactor;
+	OutColor.a = 1;
+}
