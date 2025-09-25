@@ -1229,3 +1229,27 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.25-18.51.32:649][721]LogSlate: External Image Picker: DecompressImage failed
 [2025.09.25-18.52.26:628][  6]LogSlate: Window 'Project Settings' being destroyed
 [2025.09.25-18.52.26:636][  6]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.25-18.55.27:970][713]LogSlate: External Image Picker: DecompressImage failed
+[2025.09.25-18.55.38:270][903]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.25-18.55.38:275][903]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.25-18.56.32:501][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.09.25-18.56.33:737][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-18.56.33:771][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP-Kira] ([2] browsable assets)...
+[2025.09.25-18.56.33:839][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP-Kira.BP-Kira]
+[2025.09.25-18.56.33:839][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP-Kira]
+[2025.09.25-18.56.33:839][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP-Kira" FILE="../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Content/ThirdPerson/Blueprints/BP-Kira.uasset" SILENT=true
+[2025.09.25-18.56.33:865][367]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP-Kira
+[2025.09.25-18.56.33:865][367]LogSavePackage: Moving '../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Saved/BP-Kira5EA029E74A0234AC35E817ACEB83E8D4.tmp' to '../../../../../../Users/Administrador/Documents/GitHub/Path-J/Path_J/Content/ThirdPerson/Blueprints/BP-Kira.uasset'
+[2025.09.25-18.56.33:873][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.760 ms
+[2025.09.25-18.56.33:921][367]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-18.56.33:921][367]LogContentValidation: Enabled validators:
+[2025.09.25-18.56.33:921][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-18.56.33:921][367]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-18.56.33:921][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-18.56.33:921][367]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-18.56.33:921][367]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-18.56.33:921][367]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-18.56.33:921][367]AssetCheck: /Game/ThirdPerson/Blueprints/BP-Kira Validating asset
+[2025.09.25-18.56.37:629][811]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2026.994751
+[2025.09.25-18.56.37:804][832]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-18.56.37:804][833]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2027.161011, Update Interval: 336.107666
